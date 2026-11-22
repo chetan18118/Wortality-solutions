@@ -1,0 +1,6104 @@
+{
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Course Overview & 14-Day Map",
+      "group": "Getting Started",
+      "nav": "overview",
+      "badge": "28 Hours",
+      "blocks": [
+        {
+          "type": "cover_title",
+          "page": 1,
+          "text": "PYTHON + DATA SCIENCE+ AI/ML"
+        },
+        {
+          "type": "cover_subtitle",
+          "page": 1,
+          "text": "A 14-Day Beginner Course and Practice Workbook"
+        },
+        {
+          "type": "para",
+          "page": 1,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "For learners aged 16+ • No coding experience required • School-level mathematics"
+        },
+        {
+          "type": "para",
+          "page": 1,
+          "is_bold": true,
+          "bold_prefix": "",
+          "text": "28 hours total | 17 hours Python | 11 hours libraries and machine learning"
+        },
+        {
+          "type": "para",
+          "page": 1,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Built around small steps, exact outputs, guided practice, projects, quizzes, and responsible AI."
+        },
+        {
+          "type": "h1",
+          "page": 2,
+          "text": "How to use this workbook"
+        },
+        {
+          "type": "para",
+          "page": 2,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "This workbook is organized with consistent headings, tables, code blocks, expected outputs, exercises, and answer keys. It is designed to be easy to read, teach from, search, and extract into other learning materials."
+        },
+        {
+          "type": "para",
+          "page": 2,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Use Google Colab for all coding. No local Python installation is required. Run one code cell at a time and compare your output with the expected output. When code fails, read the final line of the error first, then check spelling, brackets, indentation, variable names, and cell order. Try exercises before opening their solutions. Copying is a start; changing, testing, and explaining code is the goal. The course introduces many concepts, but it does not make a learner job-ready in 14 days. Use the continuation plan for deeper practice."
+        },
+        {
+          "type": "para",
+          "page": 2,
+          "is_bold": false,
+          "bold_prefix": "Think like a programmer",
+          "text": "Think like a programmer Understand the problem → write the steps in plain words → code one small step → test with an example → inspect the result → improve."
+        },
+        {
+          "type": "h1",
+          "page": 2,
+          "text": "Course overview"
+        },
+        {
+          "type": "para",
+          "page": 2,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Audience: complete beginners aged 16 and above. Prior coding experience is not required. School-level arithmetic is enough for the first pass."
+        },
+        {
+          "type": "para",
+          "page": 2,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Daily time: 2 hours. Total: 14 days × 2 hours = 28 hours."
+        },
+        {
+          "type": "table",
+          "page": 2,
+          "cols": 4,
+          "rows": [
+            [
+              "Learning area",
+              "Hours",
+              "Share",
+              "What learners practice"
+            ],
+            [
+              "Basic Python",
+              "17",
+              "About 60%",
+              "Variables, strings, conditions, collections, loops, functions, debugging, exceptions, files, and a mini project."
+            ],
+            [
+              "Libraries + machine learning",
+              "11",
+              "About 40%",
+              "NumPy, Pandas, cleaning, charts, ML foundations, regression, classification, evaluation, and capstone."
+            ],
+            [
+              "Total",
+              "28",
+              "100%",
+              "A beginner foundation and one small portfolio-style project."
+            ]
+          ]
+        },
+        {
+          "type": "h1",
+          "page": 2,
+          "text": "14-day course map"
+        },
+        {
+          "type": "table",
+          "page": 2,
+          "cols": 4,
+          "rows": [
+            [
+              "Day",
+              "Topic",
+              "What you will be able to do",
+              "Hours"
+            ],
+            [
+              "1",
+              "Colab, print, variables, types, input/output",
+              "Run code, store values, and display information.",
+              "2"
+            ],
+            [
+              "2",
+              "Strings, operators, type conversion",
+              "Manipulate text and calculate with user input.",
+              "2"
+            ],
+            [
+              "3",
+              "Conditions and logical thinking",
+              "Make programs choose between actions.",
+              "2"
+            ],
+            [
+              "4",
+              "Lists and tuples",
+              "Store and access ordered collections.",
+              "2"
+            ],
+            [
+              "5",
+              "Dictionaries and sets",
+              "Represent records and unique values.",
+              "2"
+            ],
+            [
+              "6",
+              "Loops and comprehensions",
+              "Repeat work and process collections.",
+              "2"
+            ],
+            [
+              "7",
+              "Functions",
+              "Write reusable code with inputs and return values.",
+              "2"
+            ],
+            [
+              "8",
+              "Modules, debugging, errors, files, CSV; mini project",
+              "Handle common errors and save data.",
+              "2"
+            ],
+            [
+              "9",
+              "Python review project + NumPy",
+              "Review Python and perform array calculations.",
+              "2"
+            ],
+            [
+              "10",
+              "Pandas",
+              "Inspect, filter, sort, group, and combine tables.",
+              "2"
+            ],
+            [
+              "11",
+              "Cleaning, EDA, visualization",
+              "Prepare data and communicate patterns with charts.",
+              "2"
+            ],
+            [
+              "12",
+              "ML foundations + regression",
+              "Train a first model that predicts a number.",
+              "2"
+            ],
+            [
+              "13",
+              "Classification, metrics, preprocessing, responsible AI",
+              "Predict categories and evaluate model errors.",
+              "2"
+            ],
+            [
+              "14",
+              "Capstone and next steps",
+              "Present a small, documented analysis or model.",
+              "2"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "day-0",
+      "title": "Day 0 — Set up Google Colab",
+      "group": "Getting Started",
+      "nav": "modules",
+      "badge": "Setup",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 3,
+          "text": "Day 0 — Set up Google Colab"
+        },
+        {
+          "type": "para",
+          "page": 3,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Goal: open a notebook, run a code cell, and know how to recover from common setup problems."
+        },
+        {
+          "type": "h2",
+          "page": 3,
+          "text": "Step 1: Open Colab"
+        },
+        {
+          "type": "para",
+          "page": 3,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Visit https://colab.research.google.com/ Sign in with a Google account if prompted. Choose New notebook. Click a code cell, type the example below, and press Shift+Enter."
+        },
+        {
+          "type": "code",
+          "page": 3,
+          "text": "print(\"Hello, Python!\")"
+        },
+        {
+          "type": "output",
+          "page": 3,
+          "text": "Hello, Python!"
+        },
+        {
+          "type": "h2",
+          "page": 3,
+          "text": "Step 2: Know the notebook parts"
+        },
+        {
+          "type": "table",
+          "page": 3,
+          "cols": 2,
+          "rows": [
+            [
+              "Part",
+              "Meaning"
+            ],
+            [
+              "Code cell",
+              "Runs Python code."
+            ],
+            [
+              "Text/Markdown cell",
+              "Stores explanations, headings, and notes."
+            ],
+            [
+              "Runtime",
+              "The temporary computer environment running the notebook."
+            ],
+            [
+              "Run button",
+              "Executes the selected cell."
+            ],
+            [
+              "Notebook file",
+              "The document containing code, notes, and outputs."
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 3,
+          "text": "Five common setup problems and fixes"
+        },
+        {
+          "type": "table",
+          "page": 4,
+          "cols": 3,
+          "rows": [
+            [
+              "Problem",
+              "What it means",
+              "Try this"
+            ],
+            [
+              "Cell does not run",
+              "The cell may still be running or runtime is disconnected.",
+              "Check the status near the top; reconnect or interrupt a stuck cell."
+            ],
+            [
+              "NameError",
+              "A variable or name is not defined in the current runtime.",
+              "Run the cell that defines it; check spelling and capitalization."
+            ],
+            [
+              "ModuleNotFoundError",
+              "A library is not available in the current environment.",
+              "Check the import spelling. If necessary, install the package in a Colab cell using %pip install package_name."
+            ],
+            [
+              "FileNotFoundError",
+              "The requested file cannot be found at that path.",
+              "Check the filename and location. Upload the file or use the correct path."
+            ],
+            [
+              "Output differs or variable is missing",
+              "Cells may have run out of order or the runtime was reset.",
+              "Choose Runtime → Run all, or run cells from top to bottom."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 4,
+          "is_bold": false,
+          "bold_prefix": "Safety note",
+          "text": "Safety note Do not upload passwords, private keys, confidential student records, or sensitive personal information to a notebook."
+        }
+      ]
+    },
+    {
+      "id": "day-1",
+      "title": "Day 1 — First steps in Python",
+      "group": "Python Fundamentals (Days 1–8)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 5,
+          "text": "Day 1 — First steps in Python"
+        },
+        {
+          "type": "para",
+          "page": 5,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Today you will run Python in Colab, print messages, create variables, recognize basic data types, and accept simple input."
+        },
+        {
+          "type": "para",
+          "page": 5,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Analogy: A variable is like a labeled box. The label lets you refer to the value stored inside."
+        },
+        {
+          "type": "para",
+          "page": 5,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: program (instructions for a computer); variable (a name referring to a value); string (text); integer (whole number); output (what the program displays)."
+        },
+        {
+          "type": "h2",
+          "page": 5,
+          "text": "Step 1: Display a message"
+        },
+        {
+          "type": "code",
+          "page": 5,
+          "text": "print(\"Hello, world!\")\nprint(2 + 3)"
+        },
+        {
+          "type": "output",
+          "page": 5,
+          "text": "Hello, world!\n5"
+        },
+        {
+          "type": "para",
+          "page": 5,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "What this does: print() displays information. Python can calculate expressions before displaying them."
+        },
+        {
+          "type": "h2",
+          "page": 5,
+          "text": "Step 2: Create variables"
+        },
+        {
+          "type": "code",
+          "page": 5,
+          "text": "name = \"Maya\"\nage = 18\nprint(name)\nprint(age)"
+        },
+        {
+          "type": "output",
+          "page": 5,
+          "text": "Maya\n18"
+        },
+        {
+          "type": "para",
+          "page": 5,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "What this does: name refers to text and age refers to an integer. The equals sign assigns a value."
+        },
+        {
+          "type": "h2",
+          "page": 5,
+          "text": "Step 3: Check data types"
+        },
+        {
+          "type": "code",
+          "page": 5,
+          "text": "print(type(18))\nprint(type(3.5))\nprint(type(\"hello\"))\nprint(type(True))"
+        },
+        {
+          "type": "output",
+          "page": 5,
+          "text": "<class 'int'>\n<class 'float'>\n<class 'str'>\n<class 'bool'>"
+        },
+        {
+          "type": "h2",
+          "page": 5,
+          "text": "Step 4: Read an error"
+        },
+        {
+          "type": "code",
+          "page": 5,
+          "text": "print(score)"
+        },
+        {
+          "type": "output",
+          "page": 5,
+          "text": "NameError: name 'score' is not defined"
+        },
+        {
+          "type": "para",
+          "page": 5,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "What this means: Python cannot find a variable named score. The fix is to define it first or use the correct variable name. The last line of an error message often tells you the immediate problem."
+        },
+        {
+          "type": "h2",
+          "page": 5,
+          "text": "Do it with me"
+        },
+        {
+          "type": "code",
+          "page": 5,
+          "text": "name = \"Asha\"\ncity = \"Pune\"\nprint(f\"{name} lives in {city}.\")"
+        },
+        {
+          "type": "output",
+          "page": 5,
+          "text": "Asha lives in Pune."
+        },
+        {
+          "type": "h2",
+          "page": 5,
+          "text": "Try it yourself"
+        },
+        {
+          "type": "para",
+          "page": 5,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Level 1: Print your name and a number."
+        },
+        {
+          "type": "para",
+          "page": 5,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Level 2: Store your name, age, and favourite subject in variables and print them."
+        },
+        {
+          "type": "para",
+          "page": 5,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Level 3: Make a short profile using an f-string. Hint: use f\"...{variable}...\"."
+        },
+        {
+          "type": "h2",
+          "page": 5,
+          "text": "10 practice problems with solutions"
+        },
+        {
+          "type": "table",
+          "page": 5,
+          "cols": 4,
+          "rows": [
+            [
+              "#",
+              "Problem",
+              "Solution",
+              "Expected result"
+            ],
+            [
+              "1",
+              "Print the word Python.",
+              "print('Python')",
+              "Python"
+            ],
+            [
+              "2",
+              "Calculate 7 + 8.",
+              "print(7 + 8)",
+              "15"
+            ],
+            [
+              "3",
+              "Store 12 in a variable named count.",
+              "count = 12",
+              "No output; count stores 12."
+            ],
+            [
+              "4",
+              "Print the type of 4.",
+              "print(type(4))",
+              "<class 'int'>"
+            ],
+            [
+              "5",
+              "Print the type of 4.0.",
+              "print(type(4.0))",
+              "<class 'float'>"
+            ],
+            [
+              "6",
+              "Create a variable city containing Pune.",
+              "city = 'Pune'",
+              "No output until printed."
+            ],
+            [
+              "7",
+              "Print two lines.",
+              "print('First')\nprint('Second')",
+              "First, then Second on a new line."
+            ],
+            [
+              "8",
+              "Create a Boolean variable named is_ready.",
+              "is_ready = True",
+              "No output; stores True."
+            ],
+            [
+              "9",
+              "Print a sentence using a variable called name.",
+              "name = 'Ravi'\nprint(f'Hello, {name}')",
+              "Hello, Ravi"
+            ],
+            [
+              "10",
+              "Fix the undefined-variable error in print(score).",
+              "score = 80\nprint(score)",
+              "80"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 6,
+          "text": "Errors you may see"
+        },
+        {
+          "type": "para",
+          "page": 6,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "SyntaxError: check missing quotes, parentheses, or punctuation."
+        },
+        {
+          "type": "para",
+          "page": 6,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "NameError: define the variable before using it."
+        },
+        {
+          "type": "para",
+          "page": 6,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "IndentationError: align indented lines consistently."
+        },
+        {
+          "type": "h2",
+          "page": 6,
+          "text": "Self-check"
+        },
+        {
+          "type": "table",
+          "page": 6,
+          "cols": 2,
+          "rows": [
+            [
+              "Question",
+              "Answer"
+            ],
+            [
+              "What does print() do?",
+              "Displays information."
+            ],
+            [
+              "What is a variable?",
+              "A name referring to a value."
+            ],
+            [
+              "What type is 'hello'?",
+              "str, which means string."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 6,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You ran Python, stored values, and read a basic error. Tomorrow you will work with text and operators."
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "title": "Day 2 — Strings, operators, and type conversion",
+      "group": "Python Fundamentals (Days 1–8)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 7,
+          "text": "Day 2 — Strings, operators, and type conversion"
+        },
+        {
+          "type": "para",
+          "page": 7,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Today you will manipulate text, calculate values, and convert input into numbers when needed."
+        },
+        {
+          "type": "para",
+          "page": 7,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Analogy: A string is a row of letters. You can select characters, count them, or change how they look."
+        },
+        {
+          "type": "para",
+          "page": 7,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: index (a position starting at zero); slice (a selected part of a sequence); operator (a symbol or word that performs an operation); conversion (changing a value's type); f-string (a string that can include variable values)."
+        },
+        {
+          "type": "h2",
+          "page": 7,
+          "text": "Step 1: Work with strings"
+        },
+        {
+          "type": "code",
+          "page": 7,
+          "text": "word = \"Python\"\nprint(word[0])\nprint(word[-1])\nprint(word[0:3])\nprint(len(word))"
+        },
+        {
+          "type": "output",
+          "page": 7,
+          "text": "P\nn\nPyt\n6"
+        },
+        {
+          "type": "h2",
+          "page": 7,
+          "text": "Step 2: Use string methods"
+        },
+        {
+          "type": "code",
+          "page": 7,
+          "text": "text = \"  hello world  \"\nprint(text.strip())\nprint(\"python\".upper())\nprint(\"red-blue\".split(\"-\"))"
+        },
+        {
+          "type": "output",
+          "page": 7,
+          "text": "hello world\nPYTHON\n['red', 'blue']"
+        },
+        {
+          "type": "h2",
+          "page": 7,
+          "text": "Step 3: Calculate with operators"
+        },
+        {
+          "type": "code",
+          "page": 7,
+          "text": "print(10 + 3)\nprint(10 / 2)\nprint(10 // 3)\nprint(10 % 3)\nprint(2 ** 3)"
+        },
+        {
+          "type": "output",
+          "page": 7,
+          "text": "13\n5.0\n3\n1\n8"
+        },
+        {
+          "type": "h2",
+          "page": 7,
+          "text": "Step 4: Convert input"
+        },
+        {
+          "type": "code",
+          "page": 7,
+          "text": "age_text = \"18\"\nage = int(age_text)\nprint(age + 1)\nprint(str(100) + \" points\")"
+        },
+        {
+          "type": "output",
+          "page": 7,
+          "text": "19\n100 points"
+        },
+        {
+          "type": "para",
+          "page": 7,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Remember: input() returns text. Convert it with int() or float() before doing numerical calculations."
+        },
+        {
+          "type": "h2",
+          "page": 7,
+          "text": "10 practice problems with solutions"
+        },
+        {
+          "type": "table",
+          "page": 7,
+          "cols": 4,
+          "rows": [
+            [
+              "#",
+              "Problem",
+              "Solution",
+              "Expected result"
+            ],
+            [
+              "1",
+              "Print the length of 'data'.",
+              "print(len('data'))",
+              "4"
+            ],
+            [
+              "2",
+              "Get the first character of 'AI'.",
+              "print('AI'[0])",
+              "A"
+            ],
+            [
+              "3",
+              "Get the last character of 'Python'.",
+              "print('Python'[-1])",
+              "n"
+            ],
+            [
+              "4",
+              "Convert '42' to an integer.",
+              "print(int('42'))",
+              "42"
+            ],
+            [
+              "5",
+              "Convert 3 to text and append '!'.",
+              "print(str(3) + '!')",
+              "3!"
+            ],
+            [
+              "6",
+              "Calculate the remainder of 14 divided by 4.",
+              "print(14 % 4)",
+              "2"
+            ],
+            [
+              "7",
+              "Calculate 3 to the power of 2.",
+              "print(3 ** 2)",
+              "9"
+            ],
+            [
+              "8",
+              "Remove spaces around ' hi '.",
+              "print(' hi '.strip())",
+              "hi"
+            ],
+            [
+              "9",
+              "Make 'hello' uppercase.",
+              "print('hello'.upper())",
+              "HELLO"
+            ],
+            [
+              "10",
+              "Print a person's name and age with an f-string.",
+              "name='Maya'; age=18;\nprint(f'{name}: {age}')",
+              "Maya: 18"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 8,
+          "text": "Errors you may see"
+        },
+        {
+          "type": "para",
+          "page": 8,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "ValueError: text such as 'hello' cannot be converted with int()."
+        },
+        {
+          "type": "para",
+          "page": 8,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "TypeError: some operations do not work between incompatible types."
+        },
+        {
+          "type": "para",
+          "page": 8,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "IndexError: a string index is outside the valid range."
+        },
+        {
+          "type": "h2",
+          "page": 8,
+          "text": "Self-check"
+        },
+        {
+          "type": "table",
+          "page": 8,
+          "cols": 2,
+          "rows": [
+            [
+              "Question",
+              "Answer"
+            ],
+            [
+              "What is the first index?",
+              "0."
+            ],
+            [
+              "What does % calculate?",
+              "The remainder."
+            ],
+            [
+              "What does input() return?",
+              "A string."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 8,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You can work with text, arithmetic, and type conversion. Quiz 1 follows Day 2."
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "title": "Day 3 — Conditions and logical thinking",
+      "group": "Python Fundamentals (Days 1–8)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 9,
+          "text": "Day 3 — Conditions and logical thinking"
+        },
+        {
+          "type": "para",
+          "page": 9,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Today you will make programs choose different actions based on conditions."
+        },
+        {
+          "type": "para",
+          "page": 9,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Analogy: A condition is like a decision at a road junction: if one thing is true, take one path; otherwise, take another."
+        },
+        {
+          "type": "para",
+          "page": 9,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: condition (a test that is true or false); Boolean (True or False); if (starts a decision); elif (checks another condition); else (the fallback branch)."
+        },
+        {
+          "type": "h2",
+          "page": 9,
+          "text": "Step 1: Use if and else"
+        },
+        {
+          "type": "code",
+          "page": 9,
+          "text": "age = 17\nif age >= 18:\n    print(\"Adult\")\nelse:\n    print(\"Not an adult\")"
+        },
+        {
+          "type": "output",
+          "page": 9,
+          "text": "Not an adult"
+        },
+        {
+          "type": "h2",
+          "page": 9,
+          "text": "Step 2: Use multiple branches"
+        },
+        {
+          "type": "code",
+          "page": 9,
+          "text": "marks = 82\nif marks >= 90:\n    grade = \"A+\"\nelif marks >= 80:\n    grade = \"A\"\nelif marks >= 70:\n    grade = \"B\"\nelse:\n    grade = \"C\"\nprint(grade)"
+        },
+        {
+          "type": "output",
+          "page": 9,
+          "text": "A"
+        },
+        {
+          "type": "h2",
+          "page": 9,
+          "text": "Step 3: Combine conditions"
+        },
+        {
+          "type": "code",
+          "page": 9,
+          "text": "attendance = 80\nmarks = 65\nprint(attendance >= 75 and marks >= 40)\nprint(marks >= 90 or attendance >= 90)\nprint(not False)"
+        },
+        {
+          "type": "output",
+          "page": 9,
+          "text": "True\nFalse\nTrue"
+        },
+        {
+          "type": "h2",
+          "page": 9,
+          "text": "10 practice problems with solutions"
+        },
+        {
+          "type": "table",
+          "page": 9,
+          "cols": 4,
+          "rows": [
+            [
+              "#",
+              "Problem",
+              "Solution",
+              "Expected result"
+            ],
+            [
+              "1",
+              "Print 'Pass' if marks are at least 40.",
+              "marks=45\nif marks >= 40:\nprint('Pass')",
+              "Pass"
+            ],
+            [
+              "2",
+              "Print 'Adult' if age is at least 18.",
+              "age=18\nif age >= 18: print('Adult')",
+              "Adult"
+            ],
+            [
+              "3",
+              "Print the larger of two numbers.",
+              "a=7; b=4\nif a > b: print(a)\nelse:\nprint(b)",
+              "7"
+            ],
+            [
+              "4",
+              "Classify 95 as A if marks >= 90, else B.",
+              "marks=95\nprint('A' if marks >= 90\nelse 'B')",
+              "A"
+            ],
+            [
+              "5",
+              "Check whether 8 is even.",
+              "print(8 % 2 == 0)",
+              "True"
+            ],
+            [
+              "6",
+              "Check whether age >= 18 and has_id is True.",
+              "age=20; has_id=True\nprint(age >=\n18 and has_id)",
+              "True"
+            ],
+            [
+              "7",
+              "Use elif for marks 75.",
+              "marks=75\nif marks >= 90:\nprint('A')\nelif marks >= 70: print('B')\nelse: print('C')",
+              "B"
+            ],
+            [
+              "8",
+              "Check whether number is between 1 and 10 inclusive.",
+              "n=5\nprint(1 <= n <= 10)",
+              "True"
+            ],
+            [
+              "9",
+              "Print 'Weekend' if day is Saturday or Sunday.",
+              "day='Sunday'\nif day == 'Saturday' or\nday == 'Sunday': print('Weekend')",
+              "Weekend"
+            ],
+            [
+              "10",
+              "Write a simple grade decision with a fallback.",
+              "marks=30\nif marks >= 40:\nprint('Pass')\nelse: print('Try again')",
+              "Try again"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 10,
+          "text": "Errors you may see"
+        },
+        {
+          "type": "para",
+          "page": 10,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "IndentationError: indent the code inside if/elif/else consistently. Using = instead of ==: use = to assign and == to compare. Wrong branch order: check higher thresholds before lower ones."
+        },
+        {
+          "type": "h2",
+          "page": 10,
+          "text": "Self-check"
+        },
+        {
+          "type": "table",
+          "page": 10,
+          "cols": 2,
+          "rows": [
+            [
+              "Question",
+              "Answer"
+            ],
+            [
+              "What does elif do?",
+              "Checks another condition if earlier conditions were false."
+            ],
+            [
+              "What does and mean?",
+              "Both conditions must be true."
+            ],
+            [
+              "What does else do?",
+              "Runs when earlier branches do not match."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 10,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! Your programs can now make decisions. Tomorrow you will store multiple values."
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "title": "Day 4 — Lists and tuples",
+      "group": "Python Fundamentals (Days 1–8)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 11,
+          "text": "Day 4 — Lists and tuples"
+        },
+        {
+          "type": "para",
+          "page": 11,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Today you will store multiple values and access them by position."
+        },
+        {
+          "type": "para",
+          "page": 11,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Analogy: A list is a shopping list you can change. A tuple is a fixed collection that should not be changed."
+        },
+        {
+          "type": "para",
+          "page": 11,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: collection (multiple values grouped together); index (position); mutable (can be changed); immutable (cannot be changed in place); slice (part of a sequence)."
+        },
+        {
+          "type": "h2",
+          "page": 11,
+          "text": "Step 1: Create and access a list"
+        },
+        {
+          "type": "code",
+          "page": 11,
+          "text": "marks = [85, 90, 76]\nprint(marks[0])\nprint(marks[-1])\nprint(len(marks))"
+        },
+        {
+          "type": "output",
+          "page": 11,
+          "text": "85\n76\n3"
+        },
+        {
+          "type": "h2",
+          "page": 11,
+          "text": "Step 2: Change a list"
+        },
+        {
+          "type": "code",
+          "page": 11,
+          "text": "marks = [85, 90, 76]\nmarks.append(92)\nmarks[0] = 88\nprint(marks)"
+        },
+        {
+          "type": "output",
+          "page": 11,
+          "text": "[88, 90, 76, 92]"
+        },
+        {
+          "type": "h2",
+          "page": 11,
+          "text": "Step 3: Use a tuple"
+        },
+        {
+          "type": "code",
+          "page": 11,
+          "text": "coordinates = (18.52, 73.85)\nprint(coordinates[0])"
+        },
+        {
+          "type": "output",
+          "page": 11,
+          "text": "18.52"
+        },
+        {
+          "type": "h2",
+          "page": 11,
+          "text": "10 practice problems with solutions"
+        },
+        {
+          "type": "table",
+          "page": 11,
+          "cols": 4,
+          "rows": [
+            [
+              "#",
+              "Problem",
+              "Solution",
+              "Expected result"
+            ],
+            [
+              "1",
+              "Create a list of three colours.",
+              "colours=['red','blue','green']",
+              "['red', 'blue', 'green']"
+            ],
+            [
+              "2",
+              "Select the second value from [10,20,30].",
+              "print([10,20,30][1])",
+              "20"
+            ],
+            [
+              "3",
+              "Select the last item.",
+              "print([10,20,30][-1])",
+              "30"
+            ],
+            [
+              "4",
+              "Add 40 to a list.",
+              "values=[10,20,30];\nvalues.append(40); print(values)",
+              "[10, 20, 30, 40]"
+            ],
+            [
+              "5",
+              "Change the first item to 5.",
+              "values=[1,2,3]; values[0]=5;\nprint(values)",
+              "[5, 2, 3]"
+            ],
+            [
+              "6",
+              "Get the first two values.",
+              "print([1,2,3][0:2])",
+              "[1, 2]"
+            ],
+            [
+              "7",
+              "Sort numbers ascending.",
+              "values=[3,1,2]; values.sort();\nprint(values)",
+              "[1, 2, 3]"
+            ],
+            [
+              "8",
+              "Count the number of items.",
+              "print(len(['a','b','c']))",
+              "3"
+            ],
+            [
+              "9",
+              "Create a tuple with two coordinates.",
+              "point=(4,7); print(point)",
+              "(4, 7)"
+            ],
+            [
+              "10",
+              "Explain list vs tuple in code.",
+              "items=[1,2]; items.append(3); point=\n(1,2)",
+              "items becomes [1, 2, 3]; tuple\nremains fixed."
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 12,
+          "text": "Errors you may see"
+        },
+        {
+          "type": "para",
+          "page": 12,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "IndexError: list positions start at 0 and must exist."
+        },
+        {
+          "type": "para",
+          "page": 12,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "AttributeError: tuples do not support list methods such as append(). Unexpected slice: the ending index is excluded."
+        },
+        {
+          "type": "h2",
+          "page": 12,
+          "text": "Self-check"
+        },
+        {
+          "type": "table",
+          "page": 12,
+          "cols": 2,
+          "rows": [
+            [
+              "Question",
+              "Answer"
+            ],
+            [
+              "Can a list be changed?",
+              "Yes."
+            ],
+            [
+              "Can a tuple item be reassigned?",
+              "No."
+            ],
+            [
+              "What is the index of the first item?",
+              "0."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 12,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You can store, select, and update collections. Quiz 2 follows Day 4."
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "title": "Day 5 — Dictionaries and sets",
+      "group": "Python Fundamentals (Days 1–8)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 13,
+          "text": "Day 5 — Dictionaries and sets"
+        },
+        {
+          "type": "para",
+          "page": 13,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Today you will represent records using key-value pairs and remove duplicate values with sets."
+        },
+        {
+          "type": "para",
+          "page": 13,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Analogy: A dictionary is like a contact card: a field name points to its value. A set is like a guest list where each person appears only once."
+        },
+        {
+          "type": "para",
+          "page": 13,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: key (a dictionary lookup label); value (data associated with a key); set (collection of unique values); membership (checking whether an item exists); intersection (values shared by sets)."
+        },
+        {
+          "type": "h2",
+          "page": 13,
+          "text": "Step 1: Use a dictionary"
+        },
+        {
+          "type": "code",
+          "page": 13,
+          "text": "student = {\"name\": \"Maya\", \"age\": 18, \"marks\": 88}\nprint(student[\"name\"])\nprint(student.get(\"city\", \"Unknown\"))"
+        },
+        {
+          "type": "output",
+          "page": 13,
+          "text": "Maya\nUnknown"
+        },
+        {
+          "type": "h2",
+          "page": 13,
+          "text": "Step 2: Update a dictionary"
+        },
+        {
+          "type": "code",
+          "page": 13,
+          "text": "student[\"marks\"] = 92\nstudent[\"city\"] = \"Pune\"\nprint(student)"
+        },
+        {
+          "type": "output",
+          "page": 13,
+          "text": "{'name': 'Maya', 'age': 18, 'marks': 92, 'city': 'Pune'}"
+        },
+        {
+          "type": "h2",
+          "page": 13,
+          "text": "Step 3: Use sets"
+        },
+        {
+          "type": "code",
+          "page": 13,
+          "text": "skills = {\"Python\", \"SQL\", \"Python\"}\nprint(len(skills))\nprint(\"SQL\" in skills)"
+        },
+        {
+          "type": "output",
+          "page": 13,
+          "text": "2\nTrue"
+        },
+        {
+          "type": "para",
+          "page": 13,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Set display order is not guaranteed. Focus on uniqueness and membership rather than printed order."
+        },
+        {
+          "type": "h2",
+          "page": 13,
+          "text": "10 practice problems with solutions"
+        },
+        {
+          "type": "table",
+          "page": 13,
+          "cols": 4,
+          "rows": [
+            [
+              "#",
+              "Problem",
+              "Solution",
+              "Expected result"
+            ],
+            [
+              "1",
+              "Create a dictionary for a student.",
+              "student={'name':'Asha','marks':80}",
+              "A dictionary with name and marks."
+            ],
+            [
+              "2",
+              "Read the marks value.",
+              "print({'marks':80}['marks'])",
+              "80"
+            ],
+            [
+              "3",
+              "Safely get a missing city.",
+              "print({'name':'Asha'}.get('city','Unkno\nwn'))",
+              "Unknown"
+            ],
+            [
+              "4",
+              "Update a dictionary value.",
+              "d={'score':5}; d['score']=9;\nprint(d['score'])",
+              "9"
+            ],
+            [
+              "5",
+              "Create a set with duplicate numbers.",
+              "print(len({1,2,2,3}))",
+              "3"
+            ],
+            [
+              "6",
+              "Check membership in a set.",
+              "print('AI' in {'AI','Python'})",
+              "True"
+            ],
+            [
+              "7",
+              "Find common values.",
+              "print({1,2,3} & {2,3,4})",
+              "A set containing 2 and 3."
+            ],
+            [
+              "8",
+              "Find the union.",
+              "print({1,2} | {2,3})",
+              "A set containing 1, 2, and 3."
+            ],
+            [
+              "9",
+              "Loop through dictionary items.",
+              "d={'a':1};\nfor k,v in d.items():\nprint(k,v)",
+              "a 1"
+            ],
+            [
+              "10",
+              "Count words with a dictionary.",
+              "words=['hi','hi','bye']; counts={}\nfor w\nin words:\ncounts[w]=counts.get(w,0)+1\nprint( counts)",
+              "{'hi': 2, 'bye': 1}"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 14,
+          "text": "Errors you may see"
+        },
+        {
+          "type": "para",
+          "page": 14,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "KeyError: a requested dictionary key is missing; consider get(). Set items must be hashable; lists cannot be set elements. Do not rely on set display order."
+        },
+        {
+          "type": "h2",
+          "page": 14,
+          "text": "Self-check"
+        },
+        {
+          "type": "table",
+          "page": 14,
+          "cols": 2,
+          "rows": [
+            [
+              "Question",
+              "Answer"
+            ],
+            [
+              "What does a dictionary store?",
+              "Key-value pairs."
+            ],
+            [
+              "What does a set remove?",
+              "Duplicate values."
+            ],
+            [
+              "What does get() help with?",
+              "Looking up a key with an optional default."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 14,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You can now represent records and unique values. Tomorrow you will automate repeated tasks."
+        }
+      ]
+    },
+    {
+      "id": "day-6",
+      "title": "Day 6 — Loops and list comprehensions",
+      "group": "Python Fundamentals (Days 1–8)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 15,
+          "text": "Day 6 — Loops and list comprehensions"
+        },
+        {
+          "type": "para",
+          "page": 15,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Today you will repeat instructions, process collections, and create lists from existing values."
+        },
+        {
+          "type": "para",
+          "page": 15,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Analogy: A loop is like checking every item on a shopping list one by one."
+        },
+        {
+          "type": "para",
+          "page": 15,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: iteration (one pass through a loop); range (a sequence of numbers); break (stop a loop); continue (skip to the next iteration); comprehension (a compact way to build a collection)."
+        },
+        {
+          "type": "h2",
+          "page": 15,
+          "text": "Step 1: Use a for loop"
+        },
+        {
+          "type": "code",
+          "page": 15,
+          "text": "for number in range(3):\n    print(number)"
+        },
+        {
+          "type": "output",
+          "page": 15,
+          "text": "0\n1\n2"
+        },
+        {
+          "type": "h2",
+          "page": 15,
+          "text": "Step 2: Use a while loop"
+        },
+        {
+          "type": "code",
+          "page": 15,
+          "text": "count = 1\nwhile count <= 3:\n    print(count)\n    count += 1"
+        },
+        {
+          "type": "output",
+          "page": 15,
+          "text": "1\n2\n3"
+        },
+        {
+          "type": "h2",
+          "page": 15,
+          "text": "Step 3: Skip values and build lists"
+        },
+        {
+          "type": "code",
+          "page": 15,
+          "text": "for n in range(5):\n    if n == 2:\n        continue\n    print(n)\nsquares = [n ** 2 for n in range(4)]\nprint(squares)"
+        },
+        {
+          "type": "output",
+          "page": 15,
+          "text": "0\n1\n3\n4\n[0, 1, 4, 9]"
+        },
+        {
+          "type": "h2",
+          "page": 15,
+          "text": "10 practice problems with solutions"
+        },
+        {
+          "type": "table",
+          "page": 15,
+          "cols": 4,
+          "rows": [
+            [
+              "#",
+              "Problem",
+              "Solution",
+              "Expected result"
+            ],
+            [
+              "1",
+              "Print numbers 0 to 4.",
+              "for n in range(5): print(n)",
+              "0, 1, 2, 3, 4 on separate lines."
+            ],
+            [
+              "2",
+              "Print numbers 1 to 3.",
+              "for n in range(1,4): print(n)",
+              "1, 2, 3."
+            ],
+            [
+              "3",
+              "Calculate the sum of [2,3,4].",
+              "total=0\nfor n in [2,3,4]: total +=\nn\nprint(total)",
+              "9"
+            ],
+            [
+              "4",
+              "Print each item in a list.",
+              "for item in ['a','b']: print(item)",
+              "a then b."
+            ],
+            [
+              "5",
+              "Count down from 3 to 1.",
+              "for n in range(3,0,-1): print(n)",
+              "3, 2, 1."
+            ],
+            [
+              "6",
+              "Stop a loop at 3.",
+              "for n in range(6):\n if n == 3: break\n\nprint(n)",
+              "0, 1, 2."
+            ],
+            [
+              "7",
+              "Skip even numbers.",
+              "for n in range(5):\n if n % 2 == 0:\ncontinue\n print(n)",
+              "1, 3."
+            ],
+            [
+              "8",
+              "Create squares of 0, 1, 2.",
+              "print([n*n for n in range(3)])",
+              "[0, 1, 4]"
+            ],
+            [
+              "9",
+              "Create a list of even numbers below 10.",
+              "print([n for n in range(10) if n%2==0])",
+              "[0, 2, 4, 6, 8]"
+            ],
+            [
+              "10",
+              "Use a loop to count passing marks.",
+              "marks=[30,50,70]; count=0\nfor m in marks:\n if m>=40:\ncount+=1\nprint(count)",
+              "2"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 16,
+          "text": "Errors you may see"
+        },
+        {
+          "type": "para",
+          "page": 16,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Infinite loop: make sure the condition can eventually become false."
+        },
+        {
+          "type": "para",
+          "page": 16,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "IndentationError: indent the loop body consistently. Off-by-one error: range(5) produces 0 through 4, not 5."
+        },
+        {
+          "type": "h2",
+          "page": 16,
+          "text": "Self-check"
+        },
+        {
+          "type": "table",
+          "page": 16,
+          "cols": 2,
+          "rows": [
+            [
+              "Question",
+              "Answer"
+            ],
+            [
+              "What does break do?",
+              "Stops the loop."
+            ],
+            [
+              "What does continue do?",
+              "Skips the current iteration."
+            ],
+            [
+              "What does range(3) produce?",
+              "0, 1, 2."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 16,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You can repeat work and process lists. Quiz 3 follows Day 6."
+        }
+      ]
+    },
+    {
+      "id": "day-7",
+      "title": "Day 7 — Functions and reusable code",
+      "group": "Python Fundamentals (Days 1–8)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 17,
+          "text": "Day 7 — Functions and reusable code"
+        },
+        {
+          "type": "para",
+          "page": 17,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Today you will package instructions into functions, pass inputs, and return results."
+        },
+        {
+          "type": "para",
+          "page": 17,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Analogy: A function is like a recipe. You provide ingredients, follow steps, and get a result."
+        },
+        {
+          "type": "para",
+          "page": 17,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: function (reusable block of code); parameter (named input in a definition); argument (value passed when calling); return (send a result back); scope (where a name can be used)."
+        },
+        {
+          "type": "h2",
+          "page": 17,
+          "text": "Step 1: Define and call a function"
+        },
+        {
+          "type": "code",
+          "page": 17,
+          "text": "def greet(name):\n    print(f\"Hello, {name}!\")\ngreet(\"Maya\")"
+        },
+        {
+          "type": "output",
+          "page": 17,
+          "text": "Hello, Maya!"
+        },
+        {
+          "type": "h2",
+          "page": 17,
+          "text": "Step 2: Return a value"
+        },
+        {
+          "type": "code",
+          "page": 17,
+          "text": "def add(a, b):\n    return a + b\nresult = add(4, 5)\nprint(result)"
+        },
+        {
+          "type": "output",
+          "page": 17,
+          "text": "9"
+        },
+        {
+          "type": "para",
+          "page": 17,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "print() displays a value. return gives a value back to the code that called the function."
+        },
+        {
+          "type": "h2",
+          "page": 17,
+          "text": "Step 3: Use a default parameter"
+        },
+        {
+          "type": "code",
+          "page": 17,
+          "text": "def greet(name=\"friend\"):\n    return f\"Hello, {name}\"\nprint(greet())\nprint(greet(\"Asha\"))"
+        },
+        {
+          "type": "output",
+          "page": 17,
+          "text": "Hello, friend\nHello, Asha"
+        },
+        {
+          "type": "h2",
+          "page": 17,
+          "text": "10 practice problems with solutions"
+        },
+        {
+          "type": "table",
+          "page": 17,
+          "cols": 4,
+          "rows": [
+            [
+              "#",
+              "Problem",
+              "Solution",
+              "Expected result"
+            ],
+            [
+              "1",
+              "Define a function that prints Hi.",
+              "def say_hi(): print('Hi')\nsay_hi()",
+              "Hi"
+            ],
+            [
+              "2",
+              "Write a function that adds two values.",
+              "def add(a,b): return\na+b\nprint(add(2,3))",
+              "5"
+            ],
+            [
+              "3",
+              "Return the square of a number.",
+              "def square(n): return\nn*n\nprint(square(4))",
+              "16"
+            ],
+            [
+              "4",
+              "Return a greeting for a name.",
+              "def greet(name): return f'Hello,\n{name}'\nprint(greet('Ravi'))",
+              "Hello, Ravi"
+            ],
+            [
+              "5",
+              "Use a default argument.",
+              "def greet(name='friend'): return\nname\nprint(greet())",
+              "friend"
+            ],
+            [
+              "6",
+              "Return the average of a list.",
+              "def average(values): return\nsum(values)/len(values)\nprint(aver\nage([2,4]))",
+              "3.0"
+            ],
+            [
+              "7",
+              "Return True if a number is even.",
+              "def is_even(n): return\nn%2==0\nprint(is_even(6))",
+              "True"
+            ],
+            [
+              "8",
+              "Use a keyword argument.",
+              "def describe(name, age): return\nf'{name} is {age}'\nprint(describe(age=18,name\n='Maya'))",
+              "Maya is 18"
+            ],
+            [
+              "9",
+              "Write a function that counts passing marks.",
+              "def count_pass(marks): return\nsum(m>=40 for m in\nmarks)\nprint(count_pass([20,50,80]\n))",
+              "2"
+            ],
+            [
+              "10",
+              "Explain print vs return with a tiny example.",
+              "def double(n): return\nn*2\nanswer=double(3)\nprint(answ\ner)",
+              "6; return makes the result available\nto the caller."
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 18,
+          "text": "Errors you may see"
+        },
+        {
+          "type": "para",
+          "page": 18,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "TypeError: check the number and types of arguments. Returning None: a function without return gives None by default."
+        },
+        {
+          "type": "para",
+          "page": 18,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "NameError: a local variable may not exist outside its function."
+        },
+        {
+          "type": "h2",
+          "page": 18,
+          "text": "Self-check"
+        },
+        {
+          "type": "table",
+          "page": 18,
+          "cols": 2,
+          "rows": [
+            [
+              "Question",
+              "Answer"
+            ],
+            [
+              "What is a parameter?",
+              "A named input in a function definition."
+            ],
+            [
+              "What does return do?",
+              "Sends a result back to the caller."
+            ],
+            [
+              "What is scope?",
+              "Where a name can be accessed."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 18,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You can write reusable functions. Tomorrow you will use libraries, handle errors, and work with files."
+        }
+      ]
+    },
+    {
+      "id": "day-8",
+      "title": "Day 8 — Modules, debugging, exceptions, files, and CSV",
+      "group": "Python Fundamentals (Days 1–8)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 19,
+          "text": "Day 8 — Modules, debugging, exceptions, files, and CSV"
+        },
+        {
+          "type": "para",
+          "page": 19,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Today you will reuse library code, handle common errors, read and write files, and build a small Python mini project."
+        },
+        {
+          "type": "para",
+          "page": 19,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Analogy: A module is like a toolbox. An exception is a problem that interrupts the normal flow. A CSV file is a simple table stored as text."
+        },
+        {
+          "type": "para",
+          "page": 19,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: module (a reusable Python file); exception (a runtime problem); debugging (finding and fixing errors); file mode (how a file is opened); CSV (comma-separated tabular text)."
+        },
+        {
+          "type": "h2",
+          "page": 19,
+          "text": "Step 1: Use a standard library"
+        },
+        {
+          "type": "code",
+          "page": 19,
+          "text": "import math\nimport random\nprint(math.sqrt(25))\nprint(random.randint(1, 1))"
+        },
+        {
+          "type": "output",
+          "page": 19,
+          "text": "5.0\n1"
+        },
+        {
+          "type": "h2",
+          "page": 19,
+          "text": "Step 2: Handle an exception"
+        },
+        {
+          "type": "code",
+          "page": 19,
+          "text": "text = \"hello\"\ntry:\n    number = int(text)\nexcept ValueError:\n    print(\"Please provide a whole number.\")"
+        },
+        {
+          "type": "output",
+          "page": 19,
+          "text": "Please provide a whole number."
+        },
+        {
+          "type": "h2",
+          "page": 19,
+          "text": "Step 3: Write and read a file"
+        },
+        {
+          "type": "code",
+          "page": 19,
+          "text": "with open(\"note.txt\", \"w\") as file:\n    file.write(\"Learning Python\")\nwith open(\"note.txt\", \"r\") as file:\n    print(file.read())"
+        },
+        {
+          "type": "output",
+          "page": 19,
+          "text": "Learning Python"
+        },
+        {
+          "type": "h2",
+          "page": 19,
+          "text": "Step 4: Save CSV data"
+        },
+        {
+          "type": "code",
+          "page": 19,
+          "text": "import csv\nwith open(\"expenses.csv\", \"w\", newline=\"\") as file:\n    writer = csv.writer(file)\n    writer.writerow([\"item\", \"amount\"])\n    writer.writerow([\"lunch\", 120])\nwith open(\"expenses.csv\", \"r\", newline=\"\") as file:\n    for row in csv.reader(file):\n        print(row)"
+        },
+        {
+          "type": "output",
+          "page": 19,
+          "text": "['item', 'amount']\n['lunch', '120']"
+        },
+        {
+          "type": "h2",
+          "page": 19,
+          "text": "Mini project: Grade calculator"
+        },
+        {
+          "type": "code",
+          "page": 19,
+          "text": "def average(marks):\n    return sum(marks) / len(marks)\nmarks = [75, 80, 65]\navg = average(marks)\nprint(\"Average:\", round(avg, 1))\nprint(\"Result:\", \"Pass\" if avg >= 40 else \"Try again\")"
+        },
+        {
+          "type": "output",
+          "page": 19,
+          "text": "Average: 73.3\nResult: Pass"
+        },
+        {
+          "type": "h2",
+          "page": 19,
+          "text": "10 practice problems with solutions"
+        },
+        {
+          "type": "table",
+          "page": 19,
+          "cols": 4,
+          "rows": [
+            [
+              "#",
+              "Problem",
+              "Solution",
+              "Expected result"
+            ],
+            [
+              "1",
+              "Import math and calculate square root of 16.",
+              "import math\nprint(math.sqrt(16))",
+              "4.0"
+            ],
+            [
+              "2",
+              "Generate a random integer from 1 to 1.",
+              "import\nrandom\nprint(random.randint(1,1))",
+              "1"
+            ],
+            [
+              "3",
+              "Catch invalid integer conversion.",
+              "try: int('abc')\nexcept ValueError:\nprint('Invalid')",
+              "Invalid"
+            ],
+            [
+              "4",
+              "Write text to a file.",
+              "with open('a.txt','w') as f: f.write('Hi')",
+              "Creates a.txt containing Hi."
+            ],
+            [
+              "5",
+              "Read text from a file.",
+              "with open('a.txt') as f: print(f.read())",
+              "Hi, if a.txt was created as above."
+            ],
+            [
+              "6",
+              "Append a line to a file.",
+              "with open('a.txt','a') as f: f.write('!')",
+              "Adds ! to the end."
+            ],
+            [
+              "7",
+              "Write a CSV header.",
+              "import csv\nwith\nopen('x.csv','w',newline='') as f:\ncsv.writer(f).writerow(['name','marks']\n)",
+              "Creates a CSV header row."
+            ],
+            [
+              "8",
+              "Count passing marks with a function.",
+              "def count_pass(xs): return\nsum(x>=40 for x in\nxs)\nprint(count_pass([30,40,90]))",
+              "2"
+            ],
+            [
+              "9",
+              "Explain FileNotFoundError.",
+              "# Check file name and path",
+              "The requested file was not found."
+            ],
+            [
+              "10",
+              "Debug a NameError for score.",
+              "score=50\nprint(score)",
+              "50"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 20,
+          "text": "Errors you may see"
+        },
+        {
+          "type": "para",
+          "page": 20,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "ValueError: the input cannot be converted to the requested type."
+        },
+        {
+          "type": "para",
+          "page": 20,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "FileNotFoundError: check the file name and location. PermissionError: the current environment may not allow the requested file action. CSV data is often read as text; convert numerical fields before arithmetic."
+        },
+        {
+          "type": "h2",
+          "page": 20,
+          "text": "Self-check"
+        },
+        {
+          "type": "table",
+          "page": 20,
+          "cols": 2,
+          "rows": [
+            [
+              "Question",
+              "Answer"
+            ],
+            [
+              "Why use try/except?",
+              "To handle expected errors without abruptly stopping the program."
+            ],
+            [
+              "Why use with open()?",
+              "It closes the file when the block ends."
+            ],
+            [
+              "What does CSV store?",
+              "Tabular data in a text format."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 20,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You have completed the core Python block. Quiz 4 follows Day 8. Day 9 begins with a one-hour Python review project."
+        }
+      ]
+    },
+    {
+      "id": "day-9",
+      "title": "Day 9 — Python review + NumPy",
+      "group": "Data Science & AI/ML (Days 9–14)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 21,
+          "text": "Day 9 — Python review + NumPy"
+        },
+        {
+          "type": "para",
+          "page": 21,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Use the first hour to review Python in a small project, then use NumPy to perform numerical calculations."
+        },
+        {
+          "type": "para",
+          "page": 21,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Time split: 1 hour Python review; 1 hour NumPy."
+        },
+        {
+          "type": "para",
+          "page": 21,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Analogy: A Python list is like a row of numbers in a notebook. A NumPy array is a numerical workspace designed for calculations across many values."
+        },
+        {
+          "type": "para",
+          "page": 21,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: library (reusable code); array (collection of values); shape (dimensions of an array); indexing (selecting by position); vectorization (applying an operation to many values at once)."
+        },
+        {
+          "type": "h2",
+          "page": 21,
+          "text": "Hour 1 — Review project"
+        },
+        {
+          "type": "para",
+          "page": 21,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Choose the grade calculator, number guessing game, or expense tracker. Rebuild one part without looking, then test a normal case and an invalid case."
+        },
+        {
+          "type": "h2",
+          "page": 21,
+          "text": "Hour 2 — NumPy examples"
+        },
+        {
+          "type": "code",
+          "page": 21,
+          "text": "import numpy as np\nmarks = np.array([70, 80, 90])\nprint(marks + 5)\nprint(np.mean(marks))\nprint(np.max(marks))"
+        },
+        {
+          "type": "output",
+          "page": 21,
+          "text": "[75 85 95]\n80.0\n90"
+        },
+        {
+          "type": "code",
+          "page": 21,
+          "text": "scores = np.array([[70, 80], [90, 100]])\nprint(scores.shape)\nprint(scores[0, 1])"
+        },
+        {
+          "type": "output",
+          "page": 21,
+          "text": "(2, 2)\n80"
+        },
+        {
+          "type": "code",
+          "page": 21,
+          "text": "marks = np.array([35, 55, 70, 90])\nprint(marks[marks >= 60])"
+        },
+        {
+          "type": "output",
+          "page": 21,
+          "text": "[70 90]"
+        },
+        {
+          "type": "para",
+          "page": 21,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Why does this matter? NumPy is used for numerical calculations, array transformations, and efficient operations on data."
+        },
+        {
+          "type": "h2",
+          "page": 21,
+          "text": "Practice"
+        },
+        {
+          "type": "table",
+          "page": 21,
+          "cols": 3,
+          "rows": [
+            [
+              "#",
+              "Task",
+              "Solution"
+            ],
+            [
+              "1",
+              "Create an array [1,2,3].",
+              "np.array([1, 2, 3])"
+            ],
+            [
+              "2",
+              "Double [2,4,6].",
+              "np.array([2, 4, 6]) * 2"
+            ],
+            [
+              "3",
+              "Average [10,20,30].",
+              "np.mean([10, 20, 30]) → 20.0"
+            ],
+            [
+              "4",
+              "Find max of [4,8,2].",
+              "np.max([4, 8, 2]) → 8"
+            ],
+            [
+              "5",
+              "Create five zeros.",
+              "np.zeros(5)"
+            ],
+            [
+              "6",
+              "Generate 0 through 4.",
+              "np.arange(5)"
+            ],
+            [
+              "7",
+              "Select second element.",
+              "np.array([10,20,30])[1] → 20"
+            ],
+            [
+              "8",
+              "Shape of two rows, three columns.",
+              "np.array([[1,2,3],[4,5,6]]).shape → (2,3)"
+            ],
+            [
+              "9",
+              "Select values > 5.",
+              "a=np.array([2,6,8]); a[a>5] → [6 8]"
+            ],
+            [
+              "10",
+              "Sum [5,10,15].",
+              "np.sum([5,10,15]) → 30"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 22,
+          "text": "Errors and self-check"
+        },
+        {
+          "type": "para",
+          "page": 22,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "NameError: import NumPy as np."
+        },
+        {
+          "type": "para",
+          "page": 22,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "IndexError: inspect the array shape and valid positions. Remember: Python list addition and NumPy array addition behave differently. Self-check: What does np.mean() calculate? Average. What does shape (2,3) mean? Two rows and three columns. What does vectorization help with? Applying operations efficiently to many values."
+        },
+        {
+          "type": "para",
+          "page": 22,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You have reviewed Python and used NumPy arrays."
+        }
+      ]
+    },
+    {
+      "id": "day-10",
+      "title": "Day 10 — Pandas and tabular data",
+      "group": "Data Science & AI/ML (Days 9–14)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 23,
+          "text": "Day 10 — Pandas and tabular data"
+        },
+        {
+          "type": "para",
+          "page": 23,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Create, inspect, filter, sort, and summarize DataFrames."
+        },
+        {
+          "type": "para",
+          "page": 23,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Analogy: A DataFrame is like a spreadsheet with rows, columns, and labels."
+        },
+        {
+          "type": "para",
+          "page": 23,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: DataFrame (table-like data); column (a field); row (one record); filter (select rows by a condition); groupby (summarize records by category)."
+        },
+        {
+          "type": "code",
+          "page": 23,
+          "text": "import pandas as pd\ndata = {\"Name\": [\"Asha\", \"Ravi\", \"Maya\"], \"Marks\": [80, 65, 90]}\ndf = pd.DataFrame(data)\nprint(df)"
+        },
+        {
+          "type": "output",
+          "page": 23,
+          "text": "   Name  Marks\n0  Asha     80\n1  Ravi     65\n2  Maya     90"
+        },
+        {
+          "type": "code",
+          "page": 23,
+          "text": "print(df.shape)\nprint(df.columns.tolist())\nprint(df[\"Marks\"].mean())"
+        },
+        {
+          "type": "output",
+          "page": 23,
+          "text": "(3, 2)\n['Name', 'Marks']\n78.33333333333333"
+        },
+        {
+          "type": "code",
+          "page": 23,
+          "text": "print(df[df[\"Marks\"] >= 80])"
+        },
+        {
+          "type": "output",
+          "page": 23,
+          "text": "   Name  Marks\n0  Asha     80\n2  Maya     90"
+        },
+        {
+          "type": "code",
+          "page": 23,
+          "text": "print(df.sort_values(\"Marks\", ascending=False))"
+        },
+        {
+          "type": "output",
+          "page": 23,
+          "text": "   Name  Marks\n2  Maya     90\n0  Asha     80\n1  Ravi     65"
+        },
+        {
+          "type": "code",
+          "page": 23,
+          "text": "df[\"Passed\"] = df[\"Marks\"] >= 40\nprint(df[[\"Name\", \"Passed\"]])"
+        },
+        {
+          "type": "output",
+          "page": 23,
+          "text": "   Name  Passed\n0  Asha    True\n1  Ravi    True\n2  Maya    True"
+        },
+        {
+          "type": "code",
+          "page": 23,
+          "text": "sales = pd.DataFrame({\"Product\": [\"Pen\", \"Book\", \"Pen\"], \"Amount\": [20, 100, 30]})\nprint(sales.groupby(\"Product\")[\"Amount\"].sum())"
+        },
+        {
+          "type": "output",
+          "page": 23,
+          "text": "Product\nBook    100\nPen      50\nName: Amount, dtype: int64"
+        },
+        {
+          "type": "para",
+          "page": 23,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Why does this matter? Analysts use Pandas to inspect datasets, clean records, calculate metrics, and prepare model inputs."
+        },
+        {
+          "type": "h2",
+          "page": 23,
+          "text": "Practice"
+        },
+        {
+          "type": "table",
+          "page": 23,
+          "cols": 3,
+          "rows": [
+            [
+              "#",
+              "Task",
+              "Solution"
+            ],
+            [
+              "1",
+              "Create a DataFrame from a dictionary.",
+              "pd.DataFrame({'Age':[18,19]})"
+            ],
+            [
+              "2",
+              "Select Marks.",
+              "df['Marks']"
+            ],
+            [
+              "3",
+              "Show first five rows.",
+              "df.head()"
+            ],
+            [
+              "4",
+              "Find dimensions.",
+              "df.shape"
+            ],
+            [
+              "5",
+              "Filter marks above 80.",
+              "df[df['Marks'] > 80]"
+            ],
+            [
+              "6",
+              "Sort descending.",
+              "df.sort_values('Marks', ascending=False)"
+            ],
+            [
+              "7",
+              "Calculate average.",
+              "df['Marks'].mean()"
+            ],
+            [
+              "8",
+              "Create Passed column.",
+              "df['Passed'] = df['Marks'] >= 40"
+            ],
+            [
+              "9",
+              "Count missing values.",
+              "df.isna().sum()"
+            ],
+            [
+              "10",
+              "Merge on student_id.",
+              "pd.merge(df1, df2, on='student_id')"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 24,
+          "text": "Errors and self-check"
+        },
+        {
+          "type": "para",
+          "page": 24,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "KeyError: verify the exact column name. Use parentheses when combining conditions with & or |. Before merging, verify the key exists in both tables and types are compatible. Self-check: DataFrame? A table. groupby()? Summarize by category. shape? Row and column counts."
+        },
+        {
+          "type": "para",
+          "page": 24,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You can work with table-shaped data."
+        }
+      ]
+    },
+    {
+      "id": "day-11",
+      "title": "Day 11 — Cleaning, EDA, and visualization",
+      "group": "Data Science & AI/ML (Days 9–14)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 25,
+          "text": "Day 11 — Cleaning, EDA, and visualization"
+        },
+        {
+          "type": "para",
+          "page": 25,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Find data-quality problems, summarize information, and create charts that answer questions."
+        },
+        {
+          "type": "para",
+          "page": 25,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Analogy: Before cooking, inspect and prepare the ingredients. Before analyzing data, inspect and clean the dataset."
+        },
+        {
+          "type": "para",
+          "page": 25,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: data cleaning (correcting data problems); EDA (exploratory data analysis); missing value (information not recorded); outlier (unusually distant value); correlation (measure of how variables move together)."
+        },
+        {
+          "type": "code",
+          "page": 25,
+          "text": "import pandas as pd\ndf = pd.DataFrame({\"Hours\": [1,2,3,4,5], \"Marks\": [45,50,65,75,90]})\nprint(df.describe().round(1))"
+        },
+        {
+          "type": "output",
+          "page": 25,
+          "text": "       Hours  Marks\ncount    5.0    5.0\nmean     3.0   65.0\nstd      1.6   18.0\nmin      1.0   45.0\n25%      2.0   50.0\n50%      3.0   65.0\n75%      4.0   75.0\nmax      5.0   90.0"
+        },
+        {
+          "type": "code",
+          "page": 25,
+          "text": "df.loc[2, \"Marks\"] = None\nprint(df.isna().sum())"
+        },
+        {
+          "type": "output",
+          "page": 25,
+          "text": "Hours    0\nMarks    1\ndtype: int64"
+        },
+        {
+          "type": "code",
+          "page": 25,
+          "text": "df[\"Marks\"] = df[\"Marks\"].fillna(df[\"Marks\"].median())\nprint(df[\"Marks\"].isna().sum())"
+        },
+        {
+          "type": "output",
+          "page": 25,
+          "text": "0"
+        },
+        {
+          "type": "code",
+          "page": 25,
+          "text": "clean_df = pd.DataFrame({\"Name\": [\"Asha\", \"Ravi\", \"Asha\"], \"Marks\": [80, 70, 80]})\nclean_df = clean_df.drop_duplicates()\nprint(len(clean_df))"
+        },
+        {
+          "type": "output",
+          "page": 25,
+          "text": "2"
+        },
+        {
+          "type": "code",
+          "page": 25,
+          "text": "import matplotlib.pyplot as plt\nhours = [1,2,3,4,5]\nmarks = [45,50,65,75,90]\nplt.scatter(hours, marks)\nplt.xlabel(\"Hours studied\")\nplt.ylabel(\"Marks\")\nplt.title(\"Study Hours and Marks\")\nplt.show()"
+        },
+        {
+          "type": "para",
+          "page": 25,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Expected visual result: a scatter plot with five points that generally rise from left to right. This small illustration does not prove a real-world causal relationship."
+        },
+        {
+          "type": "table",
+          "page": 25,
+          "cols": 2,
+          "rows": [
+            [
+              "Question",
+              "Useful chart"
+            ],
+            [
+              "Trend over time",
+              "Line chart"
+            ],
+            [
+              "Compare categories",
+              "Bar chart"
+            ],
+            [
+              "Inspect numerical distribution",
+              "Histogram"
+            ],
+            [
+              "Explore two numerical variables",
+              "Scatter plot"
+            ],
+            [
+              "Inspect spread and possible outliers",
+              "Box plot"
+            ],
+            [
+              "Explore numerical correlations",
+              "Heatmap"
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 25,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Why does this matter? Data analysts and ML engineers must understand data quality and patterns before modeling."
+        },
+        {
+          "type": "h2",
+          "page": 25,
+          "text": "Mini challenge"
+        },
+        {
+          "type": "para",
+          "page": 25,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Calculate average marks. Create a scatter plot."
+        },
+        {
+          "type": "para",
+          "page": 26,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Describe the relationship. Explain why five observations cannot prove that studying longer causes higher marks."
+        },
+        {
+          "type": "h2",
+          "page": 26,
+          "text": "Errors and self-check"
+        },
+        {
+          "type": "para",
+          "page": 26,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Unexpected missing-value counts: empty strings may not count as missing automatically. Misleading chart: label axes and choose a chart that matches the question. Self-check: EDA means exploratory data analysis. Correlation does not prove causation. A scatter plot helps examine relationships between numerical variables."
+        },
+        {
+          "type": "para",
+          "page": 26,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You can inspect, clean, summarize, and visualize data. Quiz 5 follows Day 11."
+        }
+      ]
+    },
+    {
+      "id": "day-12",
+      "title": "Day 12 — ML foundations and regression",
+      "group": "Data Science & AI/ML (Days 9–14)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 27,
+          "text": "Day 12 — ML foundations and regression"
+        },
+        {
+          "type": "para",
+          "page": 27,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Understand how machine learning learns patterns and train a model that predicts a number."
+        },
+        {
+          "type": "para",
+          "page": 27,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: AI (broad field of systems performing tasks associated with intelligence); machine learning (methods that learn patterns from data); feature (input); target (value to predict); training (fitting a model to examples)."
+        },
+        {
+          "type": "h2",
+          "page": 27,
+          "text": "The basic idea"
+        },
+        {
+          "type": "para",
+          "page": 27,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Traditional programming often uses written rules plus data to produce an output. Machine learning uses examples and known answers to learn a model that can make predictions. Regression predicts a numerical value, such as a price or score. Classification predicts a category. Unsupervised learning looks for structure without a supplied target. A train/test split is like practicing with one set of questions and checking yourself with questions you have not seen."
+        },
+        {
+          "type": "h2",
+          "page": 27,
+          "text": "Train a linear regression model"
+        },
+        {
+          "type": "code",
+          "page": 27,
+          "text": "import numpy as np\nfrom sklearn.linear_model import LinearRegression\nhours = np.array([1,2,3,4,5]).reshape(-1, 1)\nmarks = np.array([45,50,65,75,90])\nmodel = LinearRegression()\nmodel.fit(hours, marks)\nprint(round(model.predict([[6]])[0], 1))"
+        },
+        {
+          "type": "output",
+          "page": 27,
+          "text": "100.0"
+        },
+        {
+          "type": "para",
+          "page": 27,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "This model learns a straight-line relationship from five illustrative examples. It is not a reliable real-world prediction about student performance."
+        },
+        {
+          "type": "h2",
+          "page": 27,
+          "text": "Evaluate the prediction error"
+        },
+        {
+          "type": "code",
+          "page": 27,
+          "text": "from sklearn.metrics import mean_absolute_error\nactual = [50,70,90]\npredicted = [55,65,85]\nprint(mean_absolute_error(actual, predicted))"
+        },
+        {
+          "type": "output",
+          "page": 27,
+          "text": "5.0"
+        },
+        {
+          "type": "para",
+          "page": 27,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "MAE is the average size of absolute prediction errors. In this example, the error is 5 marks."
+        },
+        {
+          "type": "para",
+          "page": 27,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Why does this matter? Regression is used to estimate prices, demand, costs, and other numerical outcomes. Predictions are estimates, not guarantees."
+        },
+        {
+          "type": "h2",
+          "page": 27,
+          "text": "Practice and self-check"
+        },
+        {
+          "type": "para",
+          "page": 27,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Train a regression model on the example. Predict a score for four hours of study. Calculate MAE for a few predictions and explain it in the target's units."
+        },
+        {
+          "type": "table",
+          "page": 27,
+          "cols": 2,
+          "rows": [
+            [
+              "Question",
+              "Answer"
+            ],
+            [
+              "What does regression predict?",
+              "A numerical value."
+            ],
+            [
+              "What is a feature?",
+              "An input variable."
+            ],
+            [
+              "What does MAE measure?",
+              "Average absolute prediction error."
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 27,
+          "text": "Errors you may see"
+        },
+        {
+          "type": "para",
+          "page": 27,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "ModuleNotFoundError: check scikit-learn availability in Colab. Shape errors: use a two-dimensional feature array, such as reshape(-1, 1). Unexpected prediction: train the model before predicting."
+        },
+        {
+          "type": "para",
+          "page": 27,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You trained your first model and learned a simple evaluation metric."
+        }
+      ]
+    },
+    {
+      "id": "day-13",
+      "title": "Day 13 — Classification, evaluation, and responsible AI",
+      "group": "Data Science & AI/ML (Days 9–14)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 29,
+          "text": "Day 13 — Classification, evaluation, and responsible AI"
+        },
+        {
+          "type": "para",
+          "page": 29,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Train a classifier, understand evaluation metrics, and recognize limitations."
+        },
+        {
+          "type": "para",
+          "page": 29,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: classification (predicting a category); accuracy (share of predictions that are correct); precision (share of predicted positives that are truly positive); recall (share of actual positives detected); overfitting (learning training examples too closely)."
+        },
+        {
+          "type": "h2",
+          "page": 29,
+          "text": "Train a decision tree"
+        },
+        {
+          "type": "code",
+          "page": 29,
+          "text": "from sklearn.tree import DecisionTreeClassifier\nhours = [[1],[2],[3],[4],[5],[6]]\npassed = [0,0,0,1,1,1]\nmodel = DecisionTreeClassifier(max_depth=2, random_state=42)\nmodel.fit(hours, passed)\nprint(model.predict([[5]])[0])"
+        },
+        {
+          "type": "output",
+          "page": 29,
+          "text": "1"
+        },
+        {
+          "type": "para",
+          "page": 29,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Here, 0 means fail and 1 means pass. The labels are illustrative and do not establish a real relationship between study hours and outcomes."
+        },
+        {
+          "type": "h2",
+          "page": 29,
+          "text": "Calculate accuracy"
+        },
+        {
+          "type": "code",
+          "page": 29,
+          "text": "from sklearn.metrics import accuracy_score\nactual = [1,0,1,1,0]\npredicted = [1,0,0,1,0]\nprint(accuracy_score(actual, predicted))"
+        },
+        {
+          "type": "output",
+          "page": 29,
+          "text": "0.8"
+        },
+        {
+          "type": "para",
+          "page": 29,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Four out of five predictions are correct, giving 80% accuracy."
+        },
+        {
+          "type": "h2",
+          "page": 29,
+          "text": "Precision and recall in plain language"
+        },
+        {
+          "type": "para",
+          "page": 29,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Precision: of everyone flagged by a model, how many really belong in the positive group? Recall: of everyone who truly belongs in the positive group, how many did the model identify? A model with high accuracy may still miss important cases."
+        },
+        {
+          "type": "h2",
+          "page": 29,
+          "text": "Preprocessing concepts"
+        },
+        {
+          "type": "table",
+          "page": 29,
+          "cols": 2,
+          "rows": [
+            [
+              "Term",
+              "Meaning"
+            ],
+            [
+              "Imputation",
+              "Filling missing values with a chosen rule."
+            ],
+            [
+              "Encoding",
+              "Representing categories numerically."
+            ],
+            [
+              "Scaling",
+              "Transforming numerical values to comparable ranges."
+            ],
+            [
+              "Data leakage",
+              "Letting information that should be unavailable at prediction time influence training."
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 29,
+          "text": "Responsible AI"
+        },
+        {
+          "type": "para",
+          "page": 29,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Bias: data can reflect unfair historical patterns. Privacy: avoid exposing names, contact details, or sensitive records unnecessarily. Honest reporting: explain limitations and model errors. Human oversight: do not rely on a beginner model alone for high-impact decisions. Why does this matter? Classification is used in spam filtering, defect detection, and support triage. Responsible evaluation helps prevent misleading or harmful use."
+        },
+        {
+          "type": "h2",
+          "page": 29,
+          "text": "Practice and self-check"
+        },
+        {
+          "type": "para",
+          "page": 29,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Calculate accuracy from five predictions. Train a decision tree on a small labeled dataset."
+        },
+        {
+          "type": "para",
+          "page": 30,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Explain why 95% accuracy may not be enough when detecting a rare but important event."
+        },
+        {
+          "type": "table",
+          "page": 30,
+          "cols": 2,
+          "rows": [
+            [
+              "Question",
+              "Answer"
+            ],
+            [
+              "What does classification predict?",
+              "A category."
+            ],
+            [
+              "What is overfitting?",
+              "Performing well on training data but poorly on new data."
+            ],
+            [
+              "Does 80% accuracy guarantee a useful model?",
+              "No; the type and consequence of errors matter."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 30,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You have trained a classifier and learned why errors matter. Quiz 6 follows Day 13."
+        }
+      ]
+    },
+    {
+      "id": "day-14",
+      "title": "Day 14 — Capstone and next steps",
+      "group": "Data Science & AI/ML (Days 9–14)",
+      "nav": "modules",
+      "badge": "2 Hours",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 31,
+          "text": "Day 14 — Capstone and next steps"
+        },
+        {
+          "type": "para",
+          "page": 31,
+          "is_bold": false,
+          "bold_prefix": "Goal",
+          "text": "Goal Plan, build, and explain a small project using the course skills."
+        },
+        {
+          "type": "para",
+          "page": 31,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Words of the day: capstone (final project combining skills); pipeline (sequence of processing and modeling steps); evaluation (measuring performance); README (project instructions and explanation); generative AI (AI that creates content such as text, images, or audio)."
+        },
+        {
+          "type": "h2",
+          "page": 31,
+          "text": "The end-to-end workflow"
+        },
+        {
+          "type": "table",
+          "page": 31,
+          "cols": 3,
+          "rows": [
+            [
+              "Step",
+              "Action",
+              "Questions to ask"
+            ],
+            [
+              "1",
+              "Define the problem",
+              "What question am I answering? What does success mean?"
+            ],
+            [
+              "2",
+              "Load data",
+              "Where did it come from? What does one row represent?"
+            ],
+            [
+              "3",
+              "Inspect and clean",
+              "Are values missing, duplicated, or invalid?"
+            ],
+            [
+              "4",
+              "Explore",
+              "What patterns and relationships appear?"
+            ],
+            [
+              "5",
+              "Choose features and target",
+              "What inputs are available at prediction time?"
+            ],
+            [
+              "6",
+              "Train a model if appropriate",
+              "Is this regression, classification, or clustering?"
+            ],
+            [
+              "7",
+              "Evaluate",
+              "Does it work on unseen data? Where does it fail?"
+            ],
+            [
+              "8",
+              "Explain limitations",
+              "What can and cannot be concluded?"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 31,
+          "text": "Choose your path"
+        },
+        {
+          "type": "table",
+          "page": 31,
+          "cols": 3,
+          "rows": [
+            [
+              "Option",
+              "Project",
+              "Best for"
+            ],
+            [
+              "A",
+              "Student performance analysis",
+              "First project; Python, Pandas, charts."
+            ],
+            [
+              "B",
+              "House-price prediction",
+              "Regression and numerical error."
+            ],
+            [
+              "C",
+              "Customer segmentation",
+              "K-Means and cluster interpretation."
+            ],
+            [
+              "D",
+              "Pass/fail prediction",
+              "Classification and evaluation."
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 31,
+          "text": "Guided capstone: student performance analysis"
+        },
+        {
+          "type": "code",
+          "page": 31,
+          "text": "import pandas as pd\nimport matplotlib.pyplot as plt\ndf = pd.DataFrame({\"Hours\": [1,2,3,4,5], \"Marks\": [45,50,65,75,90]})\nprint(df.describe().round(1))\nplt.scatter(df[\"Hours\"], df[\"Marks\"])\nplt.xlabel(\"Hours studied\")\nplt.ylabel(\"Marks\")\nplt.title(\"Study Hours and Marks\")\nplt.show()"
+        },
+        {
+          "type": "output",
+          "page": 32,
+          "text": "       Hours  Marks\ncount    5.0   5.0\nmean     3.0  65.0\nstd      1.6  18.0\nmin      1.0  45.0\n25%      2.0  50.0\n50%      3.0  65.0\n75%      4.0  75.0\nmax      5.0  90.0"
+        },
+        {
+          "type": "para",
+          "page": 32,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "The notebook also displays a scatter plot with five points. This is illustrative data, not evidence of causation."
+        },
+        {
+          "type": "h2",
+          "page": 32,
+          "text": "Notebook template"
+        },
+        {
+          "type": "code",
+          "page": 32,
+          "text": "# Project Title\n## 1. Problem Statement\n# What question am I trying to answer?\n## 2. Dataset\n# What does one row represent? Where did the data come from?\n## 3. Import Libraries\n## 4. Load and Inspect Data\n## 5. Clean Data\n# Check missing values and duplicates.\n## 6. Explore Data\n# Calculate summaries and create charts.\n## 7. Model (Optional)\n# Select features, target, and model.\n## 8. Evaluate\n# Compare predictions with actual results.\n## 9. Findings\n# What did I learn?\n## 10. Limitations and Next Steps\n# What could be improved?"
+        },
+        {
+          "type": "h2",
+          "page": 32,
+          "text": "README template"
+        },
+        {
+          "type": "code",
+          "page": 32,
+          "text": "# Project Name\n## Overview\nWhat problem does this project explore?\n## Dataset\nWhere did the data come from? What does each row represent?\n## Tools\nPython, Pandas, Matplotlib, scikit-learn (if used).\n## How to Run\nOpen the notebook in Google Colab and run the cells from top to bottom.\n## Results\nSummarize the key findings or model performance.\n## Limitations\nExplain what the data or model cannot establish.\n## Future Improvements\nList the next steps."
+        },
+        {
+          "type": "h2",
+          "page": 32,
+          "text": "Capstone rubric"
+        },
+        {
+          "type": "table",
+          "page": 32,
+          "cols": 2,
+          "rows": [
+            [
+              "Criterion",
+              "1 point when..."
+            ],
+            [
+              "Problem definition",
+              "The question is clear."
+            ],
+            [
+              "Data work",
+              "Data loads and is inspected correctly."
+            ],
+            [
+              "Analysis",
+              "The notebook includes useful summaries or model evaluation."
+            ],
+            [
+              "Communication",
+              "Findings and limitations are explained honestly."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 33,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Maximum: 4 points. This is a learning checklist, not a certification or professional assessment."
+        },
+        {
+          "type": "h2",
+          "page": 33,
+          "text": "Optional generative AI bonus"
+        },
+        {
+          "type": "para",
+          "page": 33,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "An LLM learns patterns in text and can generate responses to prompts. Try changing a prompt and comparing outputs. Verify generated answers. Do not attempt to master Transformers, embeddings, RAG, agents, deployment, and full LLM engineering in the remaining minutes."
+        },
+        {
+          "type": "h2",
+          "page": 33,
+          "text": "Errors and self-check"
+        },
+        {
+          "type": "para",
+          "page": 33,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Cells fail out of order: restart the runtime and run from the top. Missing files: confirm that the file is accessible. Misleading conclusions: distinguish observations from causal claims."
+        },
+        {
+          "type": "table",
+          "page": 33,
+          "cols": 2,
+          "rows": [
+            [
+              "Question",
+              "Answer"
+            ],
+            [
+              "What should be defined before training?",
+              "The problem and what success means."
+            ],
+            [
+              "Why evaluate on unseen data?",
+              "To estimate generalization."
+            ],
+            [
+              "What belongs in a README?",
+              "Purpose, dataset, tools, instructions, results, and limitations."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 33,
+          "is_bold": false,
+          "bold_prefix": "You did it!",
+          "text": "You did it! You have completed the 14-day introduction. Your next step is to build and explain a project independently."
+        }
+      ]
+    },
+    {
+      "id": "quizzes",
+      "title": "Six Quizzes (72 Questions)",
+      "group": "Quizzes & Answer Keys",
+      "nav": "quizzes",
+      "badge": "72 Qs",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 34,
+          "text": "Part 2 — Six quizzes (72 questions)"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Each quiz has 12 questions: 6 multiple-choice, 3 true/false, 2 practical scenarios, and 1 short answer. Difficulty target: 5 easy, 5 medium, 2 hard. For Python quizzes, several questions ask you to predict code output. Questions are unique across the six quizzes."
+        },
+        {
+          "type": "h2",
+          "page": 34,
+          "text": "Quiz 1 — Python basics (after Day 2)"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "1. [MCQ; Easy] What does print() do? A. Stores a value B. Displays information C. Creates a loop D. Imports a library"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "2. [MCQ; Easy] What is the type of 12.5? A. int B. str C. float D. bool"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "3. [MCQ — predict output; Medium] What is printed by print(3 + 4 * 2)? A. 14 B. 11 C. 20 D. 10"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "4. [MCQ; Easy] What does input() normally return? A. Integer B. Float C. Boolean D. String"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "5. [MCQ; Easy] Which operator calculates a remainder? A. // B. % C. ** D. /"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "6. [MCQ — predict output; Medium] What is printed by print('Python'[1])? A. P B. y C. t D. Python"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "7. [T/F; Easy] Python variable names are case-sensitive. True / False"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "8. [T/F; Easy] '10' and 10 have the same data type. True / False"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "9. [T/F; Easy] int('25') converts text containing digits to an integer. True / False"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "10. [Scenario; Medium] You ask for a user's age and want to add one. What should you do first? A. Convert input to int B. Convert to list C. Use upper() D. Use len()"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "11. [Scenario — predict output; Medium] What does print(17 // 5) display? Response: __________________________________________________________"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "12. [Short answer; Hard] Write one line of Python that prints 8 multiplied by 7. Response: __________________________________________________________"
+        },
+        {
+          "type": "h2",
+          "page": 34,
+          "text": "Quiz 2 — Conditions, lists, and tuples (after Day 4)"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "1. [MCQ; Easy] Which keyword checks an additional condition? A. else if B. elif C. when D. check"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "2. [MCQ — predict output; Easy] What does print(10 % 3) display? A. 3 B. 1 C. 0 D. 3.33"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "3. [MCQ; Easy] Which collection can be modified after creation? A. Tuple B. String C. List D. None"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "4. [MCQ; Easy] What is the first index of a Python list? A. -1 B. 0 C. 1 D. 2"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "5. [MCQ; Easy] Which list method adds an item at the end? A. append() B. remove() C. sort() D. count()"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "6. [MCQ — predict output; Medium] What is printed by x=[10,20,30]; print(x[1:3])? A. [10,20] B. [20,30] C. [10,20,30] D. [20]"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "7. [T/F; Easy] Tuples are immutable. True / False"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "8. [T/F; Medium] The ending index in a slice is included. True / False"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "9. [T/F; Easy] The operator != means not equal to. True / False"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "10. [Scenario; Medium] You need to keep a coordinate pair unchanged. Which structure is suitable? A. List B. Tuple C. Set D. Loop"
+        },
+        {
+          "type": "para",
+          "page": 34,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "11. [Scenario; Medium] Which expression selects marks at least 70 from a list named marks?"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "A. [m for m in marks if m >= 70] B. marks >= 70 C. marks.append(70) D. [m >= 70 for m in marks]"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "12. [Short answer; Hard] Explain one difference between a list and a tuple. Response: __________________________________________________________"
+        },
+        {
+          "type": "h2",
+          "page": 35,
+          "text": "Quiz 3 — Dictionaries, sets, and loops (after Day 6)"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "1. [MCQ; Easy] How does a dictionary organize data? A. By position only B. Key-value pairs C. Unique values only D. Charts"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "2. [MCQ; Easy] What happens to duplicate values in a set? A. Doubled B. Automatically sorted C. Duplicates are removed D. Always an error"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "3. [MCQ — predict output; Medium] What does for n in range(3): print(n) print? A. 1,2,3 B. 0,1,2 C. 0,1,2,3 D. 3 only"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "4. [MCQ; Easy] Which keyword stops a loop? A. skip B. stop C. break D. pass"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "5. [MCQ; Easy] Which loop repeats while a condition is true? A. while B. if C. def D. import"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "6. [MCQ — predict output; Medium] What is printed by [x*2 for x in range(3)]? A. [0,2,4] B. [2,4,6] C. [0,1,2] D. [1,2,3]"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "7. [T/F; Medium] A while loop can run forever if its condition never becomes false. True / False"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "8. [T/F; Medium] Python sets guarantee the order in which items are printed. True / False"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "9. [T/F; Easy] Dictionary get() can provide a default when a key is missing. True / False"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "10. [Scenario; Medium] You need to count word frequencies. Which structure is useful? A. Dictionary B. Tuple only C. Single integer D. Boolean"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "11. [Scenario; Medium] You want to skip even numbers in a loop but continue with later values. What should you use? A. break B. continue C. return D. raise"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "12. [Short answer; Hard] Describe the purpose of a loop in one sentence. Response: __________________________________________________________"
+        },
+        {
+          "type": "h2",
+          "page": 35,
+          "text": "Quiz 4 — Functions, errors, and files (after Day 8)"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "1. [MCQ; Easy] Which keyword defines a function? A. func B. define C. def D. function"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "2. [MCQ; Easy] What does return do? A. Only prints B. Sends a result to the caller C. Imports a library D. Closes a loop"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "3. [MCQ — predict output; Medium] What does def add(a,b): return a+b; print(add(2,3)) produce? A. 23 B. 5 C. None D. Error"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "4. [MCQ; Easy] Which block handles a specified exception? A. except B. repeat C. finally only D. import"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "5. [MCQ; Easy] Which file mode appends content? A. r B. w C. a D. x"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "6. [MCQ; Easy] Which standard library helps read and write CSV files? A. csv B. math C. random D. time"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "7. [T/F; Easy] A parameter is named in a function definition. True / False"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "8. [T/F; Easy] int('hello') converts successfully to an integer. True / False"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "9. [T/F; Medium] with open() closes a file when its block ends. True / False"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "10. [Scenario; Medium] A file-reading program reports FileNotFoundError. What should you check first? A. Chart title B. Filename and path C. Average D. Return type"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "11. [Scenario; Medium] A user enters 'abc' where a whole number is required. What is a suitable response?"
+        },
+        {
+          "type": "para",
+          "page": 35,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "A. Catch ValueError and show a helpful message B. Ignore the value silently C. Use sort() D. Use"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "append()"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "12. [Short answer; Hard] Give one benefit of saving data in a CSV file. Response: __________________________________________________________"
+        },
+        {
+          "type": "h2",
+          "page": 36,
+          "text": "Quiz 5 — NumPy, Pandas, cleaning, visualization (after Day 11)"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "1. [MCQ; Easy] Which library is designed for numerical arrays? A. NumPy B. Pandas C. Seaborn D. csv"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "2. [MCQ; Easy] Which Pandas structure represents a table? A. Tuple B. DataFrame C. Boolean D. Loop"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "3. [MCQ; Easy] What does df.shape return? A. Column names only B. Row and column counts C. Average D. Missing values only"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "4. [MCQ; Easy] Which chart is generally useful for comparing categories? A. Bar chart B. Scatter plot only C. Text file D. Code cell"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "5. [MCQ; Medium] Which expression counts missing values by column? A. df.isna().sum() B. df.append() C. df.sort() D. df.print()"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "6. [MCQ — predict output; Easy] What does np.mean([2,4,6]) return? A. 2 B. 4.0 C. 6 D. 12"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "7. [T/F; Easy] Missing values should always be replaced with zero. True / False"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "8. [T/F; Medium] Correlation alone proves that one variable causes another. True / False"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "9. [T/F; Easy] drop_duplicates() can remove duplicate rows. True / False"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "10. [Scenario; Medium] Which chart helps explore the relationship between two numerical variables? A. Scatter plot B. Always a pie chart C. Plain text D. Markdown"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "11. [Scenario; Medium] A dataset has repeated records. Which operation can help remove exact duplicate rows?"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "A. drop_duplicates() B. mean() C. scatter() D. reshape()"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "12. [Short answer; Hard] Give one reason to inspect a dataset before modeling. Response: __________________________________________________________"
+        },
+        {
+          "type": "h2",
+          "page": 36,
+          "text": "Quiz 6 — ML foundations, regression, classification, evaluation (after Day 13)"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "1. [MCQ; Easy] What does regression predict? A. Category only B. Numerical value C. File path D. Chart"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "2. [MCQ; Easy] What does classification predict? A. Categories B. Only averages C. File sizes D. Only dates"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "3. [MCQ; Easy] Why use a test set? A. Estimate performance on unseen data B. Rename features C. Delete training data D. Install libraries"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "4. [MCQ; Easy] What is a feature? A. Input variable B. Final score only C. Error message D. Plot title"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "5. [MCQ; Medium] What is overfitting? A. Good training performance but poor new-data performance B. No features C. Missing file D. All predictions correct"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "6. [MCQ; Easy] Which algorithm is commonly used for clustering? A. K-Means B. Linear regression only C. CSV reader D. Matplotlib"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "7. [T/F; Easy] A high accuracy score always means a model is useful. True / False"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "8. [T/F; Medium] Test examples should remain separate from model training. True / False"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "9. [T/F; Medium] Data leakage can make model evaluation misleading. True / False"
+        },
+        {
+          "type": "para",
+          "page": 36,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "10. [Scenario; Medium] A screening model misses many true positive cases. Which metric should you examine closely? A. Recall B. File size C. Chart color D. Mean of features"
+        },
+        {
+          "type": "para",
+          "page": 37,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "11. [Scenario; Medium] A model reports unusually excellent results. What should you investigate? A. Leakage and test-set separation B. Font size C. Variable names only D. Notebook title"
+        },
+        {
+          "type": "para",
+          "page": 37,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "12. [Short answer; Hard] Why evaluate a model on unseen data? Response: __________________________________________________________"
+        }
+      ]
+    },
+    {
+      "id": "answer-keys",
+      "title": "Complete Answer Keys & Scoring Guide",
+      "group": "Quizzes & Answer Keys",
+      "nav": "quizzes",
+      "badge": "6 Keys",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 38,
+          "text": "Separate answer key — all quizzes"
+        },
+        {
+          "type": "para",
+          "page": 38,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Short answers receive credit for any accurate explanation, even when the wording differs from the sample."
+        },
+        {
+          "type": "h2",
+          "page": 38,
+          "text": "Answer key — Quiz 1 — Python basics (after Day 2)"
+        },
+        {
+          "type": "table",
+          "page": 38,
+          "cols": 6,
+          "rows": [
+            [
+              "Q",
+              "Type",
+              "Correct answer",
+              "Simple explanation",
+              "Revisit",
+              "Difficulty"
+            ],
+            [
+              "1",
+              "MCQ",
+              "B",
+              "print displays information.",
+              "Day 1",
+              "Easy"
+            ],
+            [
+              "2",
+              "MCQ",
+              "C",
+              "12.5 is a float.",
+              "Day 1",
+              "Easy"
+            ],
+            [
+              "3",
+              "MCQ — predict output",
+              "B",
+              "Multiplication happens first: 3 + 8 = 11.",
+              "Day 2",
+              "Medium"
+            ],
+            [
+              "4",
+              "MCQ",
+              "D",
+              "input() returns a string.",
+              "Day 1",
+              "Easy"
+            ],
+            [
+              "5",
+              "MCQ",
+              "B",
+              "% returns the remainder.",
+              "Day 2",
+              "Easy"
+            ],
+            [
+              "6",
+              "MCQ — predict output",
+              "B",
+              "Index 1 contains y.",
+              "Day 2",
+              "Medium"
+            ],
+            [
+              "7",
+              "T/F",
+              "True",
+              "Variable names are case-sensitive.",
+              "Day 1",
+              "Easy"
+            ],
+            [
+              "8",
+              "T/F",
+              "False",
+              "Text '10' and integer 10 have different types.",
+              "Day 1",
+              "Easy"
+            ],
+            [
+              "9",
+              "T/F",
+              "True",
+              "int converts digit text to an integer.",
+              "Day 2",
+              "Easy"
+            ],
+            [
+              "10",
+              "Scenario",
+              "A",
+              "Convert input to int before adding.",
+              "Days 1–2",
+              "Medium"
+            ],
+            [
+              "11",
+              "Scenario — predict output",
+              "C",
+              "Floor division gives 3.",
+              "Day 2",
+              "Medium"
+            ],
+            [
+              "12",
+              "Short answer",
+              "print(8 * 7)",
+              "This prints 56.",
+              "Day 2",
+              "Hard"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 38,
+          "text": "Answer key — Quiz 2 — Conditions, lists, and tuples (after Day 4)"
+        },
+        {
+          "type": "table",
+          "page": 38,
+          "cols": 6,
+          "rows": [
+            [
+              "Q",
+              "Type",
+              "Correct answer",
+              "Simple explanation",
+              "Revisit",
+              "Difficulty"
+            ],
+            [
+              "1",
+              "MCQ",
+              "B",
+              "elif checks another condition.",
+              "Day 3",
+              "Easy"
+            ],
+            [
+              "2",
+              "MCQ — predict output",
+              "B",
+              "10 divided by 3 leaves remainder 1.",
+              "Day 2",
+              "Easy"
+            ],
+            [
+              "3",
+              "MCQ",
+              "C",
+              "Lists are mutable.",
+              "Day 4",
+              "Easy"
+            ],
+            [
+              "4",
+              "MCQ",
+              "B",
+              "Python sequences start at index 0.",
+              "Day 4",
+              "Easy"
+            ],
+            [
+              "5",
+              "MCQ",
+              "A",
+              "append adds an item at the end.",
+              "Day 4",
+              "Easy"
+            ],
+            [
+              "6",
+              "MCQ — predict output",
+              "B",
+              "The slice includes index 1 and excludes index 3.",
+              "Day 4",
+              "Medium"
+            ],
+            [
+              "7",
+              "T/F",
+              "True",
+              "!= means not equal.",
+              "Day 4",
+              "Easy"
+            ],
+            [
+              "8",
+              "T/F",
+              "False",
+              "The comprehension keeps values at least 70.",
+              "Day 4",
+              "Medium"
+            ],
+            [
+              "9",
+              "T/F",
+              "True",
+              "Tuple items cannot be reassigned.",
+              "Day 2",
+              "Easy"
+            ],
+            [
+              "10",
+              "Scenario",
+              "B",
+              "The ending index is excluded.",
+              "Day 4",
+              "Medium"
+            ],
+            [
+              "11",
+              "Scenario",
+              "A",
+              "A tuple suits fixed coordinate values.",
+              "Days 3–4",
+              "Medium"
+            ],
+            [
+              "12",
+              "Short answer",
+              "A list is mutable; a tuple is immutable.",
+              "Lists are mutable; tuples are immutable.",
+              "Day 4",
+              "Hard"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 39,
+          "text": "Answer key — Quiz 3 — Dictionaries, sets, and loops (after Day 6)"
+        },
+        {
+          "type": "table",
+          "page": 39,
+          "cols": 6,
+          "rows": [
+            [
+              "Q",
+              "Type",
+              "Correct answer",
+              "Simple explanation",
+              "Revisit",
+              "Difficulty"
+            ],
+            [
+              "1",
+              "MCQ",
+              "B",
+              "Dictionaries store key- value pairs.",
+              "Day 5",
+              "Easy"
+            ],
+            [
+              "2",
+              "MCQ",
+              "C",
+              "Sets keep unique values.",
+              "Day 5",
+              "Easy"
+            ],
+            [
+              "3",
+              "MCQ — predict output",
+              "B",
+              "range(3) produces 0, 1, and 2.",
+              "Day 6",
+              "Medium"
+            ],
+            [
+              "4",
+              "MCQ",
+              "C",
+              "break ends the loop.",
+              "Day 6",
+              "Easy"
+            ],
+            [
+              "5",
+              "MCQ",
+              "A",
+              "while repeats while its condition is true.",
+              "Day 6",
+              "Easy"
+            ],
+            [
+              "6",
+              "MCQ — predict output",
+              "A",
+              "Each value is multiplied by two.",
+              "Day 6",
+              "Medium"
+            ],
+            [
+              "7",
+              "T/F",
+              "True",
+              "The loop may never stop if its condition never becomes false.",
+              "Day 6",
+              "Medium"
+            ],
+            [
+              "8",
+              "T/F",
+              "False",
+              "Sets do not guarantee display order.",
+              "Day 5",
+              "Medium"
+            ],
+            [
+              "9",
+              "T/F",
+              "True",
+              "get can supply a default.",
+              "Day 5",
+              "Easy"
+            ],
+            [
+              "10",
+              "Scenario",
+              "A",
+              "A dictionary can store each word and its count.",
+              "Days 5–6",
+              "Medium"
+            ],
+            [
+              "11",
+              "Scenario",
+              "B",
+              "continue skips the current iteration.",
+              "Day 6",
+              "Medium"
+            ],
+            [
+              "12",
+              "Short answer",
+              "A loop repeats a block of instructions.",
+              "A loop repeats a block of instructions.",
+              "Day 6",
+              "Hard"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 40,
+          "text": "Answer key — Quiz 4 — Functions, errors, and files (after Day 8)"
+        },
+        {
+          "type": "table",
+          "page": 40,
+          "cols": 6,
+          "rows": [
+            [
+              "Q",
+              "Type",
+              "Correct answer",
+              "Simple explanation",
+              "Revisit",
+              "Difficulty"
+            ],
+            [
+              "1",
+              "MCQ",
+              "C",
+              "def defines a function.",
+              "Day 7",
+              "Easy"
+            ],
+            [
+              "2",
+              "MCQ",
+              "B",
+              "return sends a value back to the caller.",
+              "Day 7",
+              "Easy"
+            ],
+            [
+              "3",
+              "MCQ — predict output",
+              "B",
+              "The function returns 2 + 3 = 5.",
+              "Day 7",
+              "Medium"
+            ],
+            [
+              "4",
+              "MCQ",
+              "A",
+              "except handles a matching exception.",
+              "Day 8",
+              "Easy"
+            ],
+            [
+              "5",
+              "MCQ",
+              "C",
+              "Append mode is a.",
+              "Day 8",
+              "Easy"
+            ],
+            [
+              "6",
+              "MCQ",
+              "A",
+              "The csv module reads and writes CSV files.",
+              "Day 8",
+              "Easy"
+            ],
+            [
+              "7",
+              "T/F",
+              "True",
+              "Parameters appear in a function definition.",
+              "Day 7",
+              "Easy"
+            ],
+            [
+              "8",
+              "T/F",
+              "False",
+              "hello cannot be converted to an integer.",
+              "Day 8",
+              "Easy"
+            ],
+            [
+              "9",
+              "T/F",
+              "True",
+              "The context manager closes the file when the block ends.",
+              "Day 8",
+              "Medium"
+            ],
+            [
+              "10",
+              "Scenario",
+              "B",
+              "Check the filename and path.",
+              "Day 8",
+              "Medium"
+            ],
+            [
+              "11",
+              "Scenario",
+              "A",
+              "Catch ValueError and display a helpful message.",
+              "Day 8",
+              "Medium"
+            ],
+            [
+              "12",
+              "Short answer",
+              "CSV stores tabular data in a portable text format.",
+              "CSV stores tabular data in a portable text format.",
+              "Day 8",
+              "Hard"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 41,
+          "text": "Answer key — Quiz 5 — NumPy, Pandas, cleaning, visualization (after Day 11)"
+        },
+        {
+          "type": "table",
+          "page": 41,
+          "cols": 6,
+          "rows": [
+            [
+              "Q",
+              "Type",
+              "Correct answer",
+              "Simple explanation",
+              "Revisit",
+              "Difficulty"
+            ],
+            [
+              "1",
+              "MCQ",
+              "A",
+              "NumPy specializes in numerical arrays.",
+              "Day 9",
+              "Easy"
+            ],
+            [
+              "2",
+              "MCQ",
+              "B",
+              "A DataFrame represents tabular data.",
+              "Day 10",
+              "Easy"
+            ],
+            [
+              "3",
+              "MCQ",
+              "B",
+              "shape returns row and column counts.",
+              "Day 10",
+              "Easy"
+            ],
+            [
+              "4",
+              "MCQ",
+              "A",
+              "Bar charts compare categories.",
+              "Day 11",
+              "Easy"
+            ],
+            [
+              "5",
+              "MCQ",
+              "A",
+              "isna().sum() counts missing values.",
+              "Day 11",
+              "Medium"
+            ],
+            [
+              "6",
+              "MCQ — predict output",
+              "B",
+              "The mean of 2, 4, and 6 is 4.",
+              "Day 9",
+              "Easy"
+            ],
+            [
+              "7",
+              "T/F",
+              "False",
+              "Zero is not always an appropriate replacement.",
+              "Day 11",
+              "Easy"
+            ],
+            [
+              "8",
+              "T/F",
+              "False",
+              "Correlation does not prove causation.",
+              "Day 11",
+              "Medium"
+            ],
+            [
+              "9",
+              "T/F",
+              "True",
+              "drop_duplicates removes duplicate rows.",
+              "Day 11",
+              "Easy"
+            ],
+            [
+              "10",
+              "Scenario",
+              "A",
+              "Scatter plots show relationships between numerical variables.",
+              "Day 11",
+              "Medium"
+            ],
+            [
+              "11",
+              "Scenario",
+              "A",
+              "drop_duplicates removes exact duplicate rows.",
+              "Day 11",
+              "Medium"
+            ],
+            [
+              "12",
+              "Short answer",
+              "To identify data-quality issues, understand variables, and choose appropriate analysis.",
+              "Inspection can reveal missing values, wrong types, or invalid records.",
+              "Days 10–11",
+              "Hard"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 41,
+          "text": "Answer key — Quiz 6 — ML foundations, regression, classification, evaluation (after Day 13)"
+        },
+        {
+          "type": "table",
+          "page": 41,
+          "cols": 6,
+          "rows": [
+            [
+              "Q",
+              "Type",
+              "Correct answer",
+              "Simple explanation",
+              "Revisit",
+              "Difficulty"
+            ],
+            [
+              "1",
+              "MCQ",
+              "B",
+              "Regression predicts numerical values.",
+              "Day 12",
+              "Easy"
+            ],
+            [
+              "2",
+              "MCQ",
+              "A",
+              "Classification predicts categories.",
+              "Day 13",
+              "Easy"
+            ],
+            [
+              "3",
+              "MCQ",
+              "A",
+              "Test data estimates performance on unseen examples.",
+              "Day 12",
+              "Easy"
+            ],
+            [
+              "4",
+              "MCQ",
+              "A",
+              "A feature is an input variable.",
+              "Day 12",
+              "Easy"
+            ],
+            [
+              "5",
+              "MCQ",
+              "A",
+              "Overfitting can hurt performance on new data.",
+              "Day 13",
+              "Medium"
+            ],
+            [
+              "6",
+              "MCQ",
+              "A",
+              "K-Means is a clustering algorithm.",
+              "Day 13",
+              "Easy"
+            ],
+            [
+              "7",
+              "T/F",
+              "False",
+              "Accuracy alone can hide important errors.",
+              "Day 13",
+              "Easy"
+            ],
+            [
+              "8",
+              "T/F",
+              "True",
+              "Test examples should remain separate from training.",
+              "Day 12",
+              "Medium"
+            ],
+            [
+              "9",
+              "T/F",
+              "True",
+              "Leakage can make evaluation misleading.",
+              "Days 13–14",
+              "Medium"
+            ],
+            [
+              "10",
+              "Scenario",
+              "A",
+              "Recall measures the fraction of actual positives detected.",
+              "Day 13",
+              "Medium"
+            ],
+            [
+              "11",
+              "Scenario",
+              "A",
+              "Investigate leakage and separation of test data.",
+              "Days 13–14",
+              "Medium"
+            ],
+            [
+              "12",
+              "Short answer",
+              "To estimate whether it generalizes beyond the examples used for training.",
+              "Unseen data helps estimate generalization rather than memorization.",
+              "Days 12–13",
+              "Hard"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 42,
+          "text": "Scoring guide"
+        },
+        {
+          "type": "table",
+          "page": 42,
+          "cols": 3,
+          "rows": [
+            [
+              "Score out of 12",
+              "Meaning",
+              "Next step"
+            ],
+            [
+              "10–12",
+              "Great work.",
+              "Continue and keep practicing."
+            ],
+            [
+              "7–9",
+              "Good start; some topics need review.",
+              "Revisit the listed days for missed questions."
+            ],
+            [
+              "0–6",
+              "You are still building the foundation.",
+              "Retry the lesson and quiz. There is no pressure to finish on the first try."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 42,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "For short answers, award credit for a correct explanation even if the wording differs from the sample answer."
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "title": "Ten Practical Projects",
+      "group": "Projects & Capstone",
+      "nav": "projects",
+      "badge": "10 Projects",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 43,
+          "text": "Part 3 — Ten projects and the capstone"
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Estimated times are for a first version. Use a single Colab notebook initially. The checklist is a practical completion guide."
+        },
+        {
+          "type": "h2",
+          "page": 43,
+          "text": "1. Number guessing game"
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Estimated time: 30–45 minutes Skills practiced: Variables, loops, conditions, random"
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Goal and steps: Generate a secret number from 1 to 10; ask for guesses; say too high, too low, or correct; repeat until correct."
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Hint: Use random.randint(1, 10) and a while loop. Expected result: A playable game that ends when the player guesses correctly. Completion checklist: Secret number is random. Player can enter guesses. Helpful feedback is displayed. Game stops after a correct guess."
+        },
+        {
+          "type": "h2",
+          "page": 43,
+          "text": "2. Grade calculator"
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Estimated time: 30–45 minutes Skills practiced: Conditions, lists, arithmetic, input conversion"
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Goal and steps: Accept three marks; calculate average; assign grade using chosen thresholds; display average and grade."
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Hint: Check that each mark is between 0 and 100. Expected result: A numerical average and grade based on predefined rules. Completion checklist: Three marks accepted. Average is correct. Grade boundaries work. Invalid marks handled."
+        },
+        {
+          "type": "h2",
+          "page": 43,
+          "text": "3. Contact book"
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Estimated time: 45–60 minutes Skills practiced: Dictionaries, functions"
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Goal and steps: Create a dictionary; add a contact; search by name; display phone or missing-contact message."
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Hint: Use dict.get() for safe lookup. Expected result: A basic contact book that works while running. Completion checklist: Add contacts. Search contacts. Missing contact message. Functions organize code."
+        },
+        {
+          "type": "h2",
+          "page": 43,
+          "text": "4. To-do list"
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Estimated time: 45–60 minutes Skills practiced: Lists, loops, functions, conditions"
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Goal and steps: Add tasks; display numbered tasks; remove a task; add a menu."
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Hint: User-facing numbering may differ from zero-based list indexes. Expected result: A menu-driven task manager. Completion checklist: Add tasks. Display tasks. Remove tasks. Handle invalid choices."
+        },
+        {
+          "type": "h2",
+          "page": 43,
+          "text": "5. Expense tracker with CSV"
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Estimated time: 60–90 minutes Skills practiced: File handling, CSV, exceptions"
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Goal and steps: Ask for description and amount; save CSV row; read records; calculate total spending."
+        },
+        {
+          "type": "para",
+          "page": 43,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Hint: Use csv module and validate amounts. Expected result: CSV file with expense records and total. Completion checklist: Save records."
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Read records. Calculate total. Handle invalid amounts."
+        },
+        {
+          "type": "h2",
+          "page": 44,
+          "text": "6. Text analyzer"
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Estimated time: 45–75 minutes Skills practiced: Strings, dictionaries, loops, sorting"
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Goal and steps: Accept paragraph; lowercase it; split words; count frequency; show common words."
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Hint: Start with lower().split(); punctuation removal can be an improvement. Expected result: Word count and most frequent words. Completion checklist: Accept text. Normalize lowercase. Count word frequencies. Display common words."
+        },
+        {
+          "type": "h2",
+          "page": 44,
+          "text": "7. Student marks analysis"
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Estimated time: 60–90 minutes Skills practiced: NumPy, Pandas, filtering, statistics"
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Goal and steps: Create/load data; inspect columns; calculate average; filter marks; summarize with Pandas."
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Hint: Start with a small dataset created in Python. Expected result: Notebook with statistics and at least three findings. Completion checklist: Dataset loads. Summaries correct. Filters correct. Explain three findings."
+        },
+        {
+          "type": "h2",
+          "page": 44,
+          "text": "8. Clean and visualize a dataset"
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Estimated time: 60–90 minutes Skills practiced: Missing values, duplicates, charts"
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Goal and steps: Inspect dataset; count missing values and duplicates; choose treatment; create histogram and scatter plot; explain changes."
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Hint: Do not replace every missing value with zero or remove every outlier automatically. Expected result: Notebook showing issues, cleaning decisions, and charts. Completion checklist: Identify missing values. Check duplicates. Explain cleaning choices. Label charts."
+        },
+        {
+          "type": "h2",
+          "page": 44,
+          "text": "9. House-price or student-score prediction"
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Estimated time: 75–120 minutes Skills practiced: Train/test split, linear regression, evaluation"
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Goal and steps: Choose target; select features; split data; train regression; calculate MAE; explain limitations."
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Hint: Use only features available at prediction time; avoid leakage. Expected result: Trained model, test predictions, error metric, explanation. Completion checklist: Identify features/target. Separate train/test. Generate predictions. Report metric and limitations."
+        },
+        {
+          "type": "h2",
+          "page": 44,
+          "text": "10. Customer segmentation or classification"
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Estimated time: 75–120 minutes Skills practiced: K-Means or classification"
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Goal and steps: Choose task; inspect/clean data; select features; train model; visualize/evaluate output; explain limitations."
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Hint: K-Means groups numerical similarities; it does not automatically discover meaningful business categories."
+        },
+        {
+          "type": "para",
+          "page": 44,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Expected result: Notebook with model output and interpretation. Completion checklist: Identify problem type. Prepare features. Generate model output."
+        },
+        {
+          "type": "para",
+          "page": 45,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Evaluate or interpret responsibly."
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "title": "Final Capstone Project & Templates",
+      "group": "Projects & Capstone",
+      "nav": "projects",
+      "badge": "Capstone",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 45,
+          "text": "Capstone — choose your path"
+        },
+        {
+          "type": "table",
+          "page": 45,
+          "cols": 4,
+          "rows": [
+            [
+              "Option",
+              "Project",
+              "Best for",
+              "Core deliverable"
+            ],
+            [
+              "A",
+              "Student performance analysis",
+              "First project; Python, Pandas, charts",
+              "Summary statistics, charts, and three findings."
+            ],
+            [
+              "B",
+              "House-price prediction",
+              "Regression",
+              "Model, test predictions, MAE, limitations."
+            ],
+            [
+              "C",
+              "Customer segmentation",
+              "K-Means",
+              "Clusters, visualization, interpretation."
+            ],
+            [
+              "D",
+              "Pass/fail prediction",
+              "Classification",
+              "Classifier, suitable metrics, responsible limitations."
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 45,
+          "text": "Capstone notebook template"
+        },
+        {
+          "type": "code",
+          "page": 45,
+          "text": "# Project Title\n## 1. Problem Statement\n# What question am I trying to answer?\n## 2. Dataset\n# What does one row represent? Where did the data come from?\n## 3. Import Libraries\n## 4. Load and Inspect Data\n## 5. Clean Data\n# Check missing values and duplicates.\n## 6. Explore Data\n# Calculate summaries and create charts.\n## 7. Model (Optional)\n# Select features, target, and model.\n## 8. Evaluate\n# Compare predictions with actual results.\n## 9. Findings\n# What did I learn?\n## 10. Limitations and Next Steps\n# What could be improved?"
+        },
+        {
+          "type": "h2",
+          "page": 45,
+          "text": "README template"
+        },
+        {
+          "type": "code",
+          "page": 45,
+          "text": "# Project Name\n## Overview\nWhat problem does this project explore?\n## Dataset\nWhere did the data come from? What does each row represent?\n## Tools\nPython, Pandas, Matplotlib, scikit-learn (if used).\n## How to Run\nOpen the notebook in Google Colab and run the cells from top to bottom.\n## Results\nSummarize the key findings or model performance.\n## Limitations\nExplain what the data or model cannot establish.\n## Future Improvements\nList the next steps."
+        },
+        {
+          "type": "h2",
+          "page": 46,
+          "text": "Capstone rubric"
+        },
+        {
+          "type": "table",
+          "page": 46,
+          "cols": 2,
+          "rows": [
+            [
+              "Criterion",
+              "1 point when..."
+            ],
+            [
+              "Problem definition",
+              "The question is clear."
+            ],
+            [
+              "Data work",
+              "Data loads and is inspected correctly."
+            ],
+            [
+              "Analysis",
+              "Useful summaries or model evaluation are included."
+            ],
+            [
+              "Communication",
+              "Findings and limitations are explained honestly."
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 46,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Maximum 4 points. This is a learning checklist, not a certificate or professional assessment."
+        }
+      ]
+    },
+    {
+      "id": "glossary",
+      "title": "Glossary of 40 Beginner Terms",
+      "group": "Reference & Resources",
+      "nav": "resources",
+      "badge": "40 Terms",
+      "blocks": [
+        {
+          "type": "h1",
+          "page": 47,
+          "text": "Part 4 — Glossary, cheat sheets, and resources"
+        },
+        {
+          "type": "h2",
+          "page": 47,
+          "text": "Glossary of 40 beginner terms"
+        },
+        {
+          "type": "table",
+          "page": 47,
+          "cols": 3,
+          "rows": [
+            [
+              "#",
+              "Term",
+              "Plain-language meaning"
+            ],
+            [
+              "1",
+              "Programming",
+              "Giving a computer instructions."
+            ],
+            [
+              "2",
+              "Python",
+              "A programming language with readable syntax."
+            ],
+            [
+              "3",
+              "Syntax",
+              "Rules for writing valid code."
+            ],
+            [
+              "4",
+              "Variable",
+              "A name that refers to a value."
+            ],
+            [
+              "5",
+              "Data type",
+              "The kind of value stored."
+            ],
+            [
+              "6",
+              "Integer",
+              "A whole number."
+            ],
+            [
+              "7",
+              "Float",
+              "A number with a decimal part."
+            ],
+            [
+              "8",
+              "String",
+              "A sequence of text characters."
+            ],
+            [
+              "9",
+              "Boolean",
+              "A value that is True or False."
+            ],
+            [
+              "10",
+              "Operator",
+              "A symbol or word that performs an operation."
+            ],
+            [
+              "11",
+              "Conditional",
+              "Code that chooses an action based on a condition."
+            ],
+            [
+              "12",
+              "Loop",
+              "Code that repeats instructions."
+            ],
+            [
+              "13",
+              "List",
+              "An ordered, changeable collection."
+            ],
+            [
+              "14",
+              "Tuple",
+              "An ordered, unchangeable collection."
+            ],
+            [
+              "15",
+              "Dictionary",
+              "A collection of key-value pairs."
+            ],
+            [
+              "16",
+              "Set",
+              "A collection of unique values."
+            ],
+            [
+              "17",
+              "Function",
+              "A reusable block of code."
+            ],
+            [
+              "18",
+              "Parameter",
+              "A named input in a function definition."
+            ],
+            [
+              "19",
+              "Argument",
+              "A value passed to a function."
+            ],
+            [
+              "20",
+              "Return value",
+              "A result sent back by a function."
+            ],
+            [
+              "21",
+              "Module",
+              "A reusable Python component."
+            ],
+            [
+              "22",
+              "Library",
+              "A collection of reusable code."
+            ],
+            [
+              "23",
+              "Exception",
+              "An event that interrupts normal execution."
+            ],
+            [
+              "24",
+              "Debugging",
+              "Finding and fixing problems in code."
+            ],
+            [
+              "25",
+              "File handling",
+              "Reading and writing files."
+            ],
+            [
+              "26",
+              "CSV",
+              "A text format for tabular data."
+            ],
+            [
+              "27",
+              "NumPy",
+              "A library for numerical arrays and calculations."
+            ],
+            [
+              "28",
+              "Pandas",
+              "A library for working with tabular data."
+            ],
+            [
+              "29",
+              "DataFrame",
+              "A table-like data structure in Pandas."
+            ],
+            [
+              "30",
+              "EDA",
+              "Exploring data to understand its patterns and quality."
+            ],
+            [
+              "31",
+              "Visualization",
+              "Representing data with charts or graphics."
+            ],
+            [
+              "32",
+              "Feature",
+              "An input variable used by a model."
+            ],
+            [
+              "33",
+              "Target",
+              "The value or label a model tries to predict."
+            ],
+            [
+              "34",
+              "Training data",
+              "Data used to fit a model."
+            ],
+            [
+              "35",
+              "Test data",
+              "Held-out data used to evaluate a model."
+            ],
+            [
+              "36",
+              "Regression",
+              "Predicting a numerical value."
+            ],
+            [
+              "37",
+              "Classification",
+              "Predicting a category."
+            ],
+            [
+              "38",
+              "Clustering",
+              "Grouping similar observations."
+            ],
+            [
+              "39",
+              "Overfitting",
+              "Learning training examples too closely and generalizing poorly."
+            ],
+            [
+              "40",
+              "Data leakage",
+              "Improperly allowing information into training that would not be available for a valid prediction."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cheat-sheets",
+      "title": "Python, Data Science & ML Cheat Sheets",
+      "group": "Reference & Resources",
+      "nav": "resources",
+      "badge": "6 Sheets",
+      "blocks": [
+        {
+          "type": "h2",
+          "page": 48,
+          "text": "Cheat sheet 1 — Python basics"
+        },
+        {
+          "type": "code",
+          "page": 48,
+          "text": "# Variables\nname = \"Maya\"\nage = 18\n# Output\nprint(name)\n# Input and conversion\nnumber = int(input(\"Enter a number: \"))\n# Arithmetic\ntotal = 10 + 5\nproduct = 10 * 5\nremainder = 10 % 3\n# Comparison\nprint(10 >= 5)\n# String formatting\nprint(f\"Hello, {name}!\")"
+        },
+        {
+          "type": "para",
+          "page": 49,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Remember: = assigns a value, == compares values, and input() returns text."
+        },
+        {
+          "type": "h2",
+          "page": 49,
+          "text": "Cheat sheet 2 — Lists, dictionaries, loops"
+        },
+        {
+          "type": "code",
+          "page": 49,
+          "text": "marks = [70, 80, 90]\nmarks.append(95)\nstudent = {\"name\": \"Maya\", \"marks\": 90}\nprint(student.get(\"name\"))\nfor mark in marks:\n    print(mark)\nif student[\"marks\"] >= 40:\n    print(\"Pass\")\ndef average(values):\n    return sum(values) / len(values)"
+        },
+        {
+          "type": "para",
+          "page": 49,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Remember: lists hold sequences, dictionaries organize labeled values, and loops repeat work."
+        },
+        {
+          "type": "h2",
+          "page": 49,
+          "text": "Cheat sheet 3 — NumPy"
+        },
+        {
+          "type": "code",
+          "page": 49,
+          "text": "import numpy as np\nvalues = np.array([10, 20, 30])\nprint(values + 5)\nprint(np.mean(values))\nprint(np.median(values))\nprint(np.max(values))\nprint(values.shape)\nprint(values[values > 15])"
+        },
+        {
+          "type": "para",
+          "page": 49,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Remember: arrays support efficient numerical operations. Array indexing starts at zero."
+        },
+        {
+          "type": "h2",
+          "page": 49,
+          "text": "Cheat sheet 4 — Pandas"
+        },
+        {
+          "type": "code",
+          "page": 49,
+          "text": "import pandas as pd\ndf = pd.DataFrame({\"Name\": [\"Asha\", \"Ravi\", \"Maya\"], \"Marks\": [80, 65, 90]})\nprint(df.head())\nprint(df.shape)\nprint(df[\"Marks\"].mean())\nprint(df[df[\"Marks\"] >= 75])\nprint(df.isna().sum())\nprint(df.drop_duplicates())\nprint(df.sort_values(\"Marks\"))"
+        },
+        {
+          "type": "para",
+          "page": 49,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "Remember: inspect data before modifying it. Check column names and understand missing values."
+        },
+        {
+          "type": "h2",
+          "page": 49,
+          "text": "Cheat sheet 5 — Charts"
+        },
+        {
+          "type": "code",
+          "page": 49,
+          "text": "import matplotlib.pyplot as plt\n# Line chart\nplt.plot([1, 2, 3], [10, 20, 30])\nplt.show()\n# Bar chart\nplt.bar([\"A\", \"B\"], [10, 20])\nplt.show()\n# Histogram\nplt.hist([10, 12, 12, 15, 20])\nplt.show()\n# Scatter plot\nplt.scatter([1, 2, 3], [10, 15, 30])\nplt.show()"
+        },
+        {
+          "type": "table",
+          "page": 49,
+          "cols": 2,
+          "rows": [
+            [
+              "Chart",
+              "Best starting use"
+            ],
+            [
+              "Line",
+              "Trends over time."
+            ],
+            [
+              "Bar",
+              "Category comparisons."
+            ],
+            [
+              "Histogram",
+              "Numerical distributions."
+            ],
+            [
+              "Scatter",
+              "Relationships between numerical variables."
+            ],
+            [
+              "Box plot",
+              "Spread and potential outliers."
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 50,
+          "text": "Cheat sheet 6 — Machine-learning workflow"
+        },
+        {
+          "type": "code",
+          "page": 50,
+          "text": "from sklearn.model_selection import train_test_split\nfrom sklearn.linear_model import LinearRegression\nfrom sklearn.metrics import mean_absolute_error\nX = df[[\"Hours\"]]\ny = df[\"Marks\"]\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.2, random_state=42\n)\nmodel = LinearRegression()\nmodel.fit(X_train, y_train)\npredictions = model.predict(X_test)\nprint(mean_absolute_error(y_test, predictions))"
+        },
+        {
+          "type": "para",
+          "page": 50,
+          "is_bold": false,
+          "bold_prefix": "",
+          "text": "This example assumes df has valid numerical columns named Hours and Marks and enough suitable rows for a split. Features go in X; the target goes in y. fit() trains; predict() generates predictions. Evaluate on held-out data. Fit preprocessing only on training data to avoid leakage."
+        }
+      ]
+    },
+    {
+      "id": "resources",
+      "title": "Learning Resources & 4-Week Plan",
+      "group": "Reference & Resources",
+      "nav": "resources",
+      "badge": "Next Steps",
+      "blocks": [
+        {
+          "type": "h2",
+          "page": 50,
+          "text": "Recommended learning resources"
+        },
+        {
+          "type": "table",
+          "page": 50,
+          "cols": 3,
+          "rows": [
+            [
+              "Resource",
+              "Use",
+              "URL"
+            ],
+            [
+              "Google Colab",
+              "Run Python notebooks without local installation.",
+              "https://colab.research.google.com/"
+            ],
+            [
+              "Colab Help",
+              "Troubleshooting Colab.",
+              "https://support.google.com/colab/"
+            ],
+            [
+              "Python Tutorial",
+              "Reference for Python syntax and built-ins; may assume some familiarity.",
+              "https://docs.python.org/3/tutorial/"
+            ],
+            [
+              "Python documentation hub",
+              "Official Python documentation.",
+              "https://www.python.org/doc/"
+            ],
+            [
+              "NumPy beginner guide",
+              "Arrays, indexing, calculations, and shapes.",
+              "https://numpy.org/doc/stable/user/absolute_begi nners.html"
+            ],
+            [
+              "Pandas getting started",
+              "DataFrames, reading, filtering, summaries, combining tables.",
+              "https://pandas.pydata.org/docs/getting_started/"
+            ],
+            [
+              "Scikit-learn getting started",
+              "Fit models, predict, preprocess, and evaluate.",
+              "https://scikit- learn.org/stable/getting_started.html"
+            ],
+            [
+              "Google ML Crash Course",
+              "Regression, classification, datasets, generalization, and further ML concepts.",
+              "https://developers.google.com/machine- learning/crash-course/"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "page": 50,
+          "text": "What next? Four-week continuation plan"
+        },
+        {
+          "type": "table",
+          "page": 50,
+          "cols": 3,
+          "rows": [
+            [
+              "Week",
+              "Focus",
+              "Suggested work"
+            ],
+            [
+              "1",
+              "Strengthen Python",
+              "Practice functions, nested collections, file handling, and 15 small problems. Rebuild a project without copying."
+            ],
+            [
+              "2",
+              "Data analysis",
+              "Analyze a larger dataset, handle missing values, create charts, and explain five findings."
+            ],
+            [
+              "3",
+              "Machine learning",
+              "Compare a baseline with regression/classification. Learn preprocessing pipelines, metrics, and cross-validation."
+            ],
+            [
+              "4",
+              "Portfolio project",
+              "Complete a project, clean the notebook, write a README, publish on GitHub, and explain results and limitations."
+            ]
+          ]
+        },
+        {
+          "type": "h1",
+          "page": 51,
+          "text": "Final time audit"
+        },
+        {
+          "type": "table",
+          "page": 51,
+          "cols": 3,
+          "rows": [
+            [
+              "Days",
+              "Focus",
+              "Hours"
+            ],
+            [
+              "1–8",
+              "Core Python lessons",
+              "16"
+            ],
+            [
+              "9, first hour",
+              "Python review project",
+              "1"
+            ],
+            [
+              "9, second hour",
+              "NumPy",
+              "1"
+            ],
+            [
+              "10–11",
+              "Pandas, cleaning, EDA, visualization",
+              "4"
+            ],
+            [
+              "12–14",
+              "ML foundations/regression, classification/responsible AI, capstone",
+              "6"
+            ],
+            [
+              "Total",
+              "17 hours Python + 11 hours libraries/ML",
+              "28"
+            ]
+          ]
+        },
+        {
+          "type": "para",
+          "page": 51,
+          "is_bold": false,
+          "bold_prefix": "Final reminder",
+          "text": "Final reminder A learner who can explain why code works—and fix it when it breaks—has gained a stronger foundation than someone who has only copied examples. Progress at a comfortable pace."
+        }
+      ]
+    }
+  ],
+  "answerMap": {
+    "1": {
+      "1": {
+        "type": "MCQ",
+        "answer": "B",
+        "explanation": "print displays information.",
+        "revisit": "Day 1",
+        "difficulty": "Easy"
+      },
+      "2": {
+        "type": "MCQ",
+        "answer": "C",
+        "explanation": "12.5 is a float.",
+        "revisit": "Day 1",
+        "difficulty": "Easy"
+      },
+      "3": {
+        "type": "MCQ — predict output",
+        "answer": "B",
+        "explanation": "Multiplication happens first: 3 + 8 = 11.",
+        "revisit": "Day 2",
+        "difficulty": "Medium"
+      },
+      "4": {
+        "type": "MCQ",
+        "answer": "D",
+        "explanation": "input() returns a string.",
+        "revisit": "Day 1",
+        "difficulty": "Easy"
+      },
+      "5": {
+        "type": "MCQ",
+        "answer": "B",
+        "explanation": "% returns the remainder.",
+        "revisit": "Day 2",
+        "difficulty": "Easy"
+      },
+      "6": {
+        "type": "MCQ — predict output",
+        "answer": "B",
+        "explanation": "Index 1 contains y.",
+        "revisit": "Day 2",
+        "difficulty": "Medium"
+      },
+      "7": {
+        "type": "T/F",
+        "answer": "True",
+        "explanation": "Variable names are case-sensitive.",
+        "revisit": "Day 1",
+        "difficulty": "Easy"
+      },
+      "8": {
+        "type": "T/F",
+        "answer": "False",
+        "explanation": "Text '10' and integer 10 have different types.",
+        "revisit": "Day 1",
+        "difficulty": "Easy"
+      },
+      "9": {
+        "type": "T/F",
+        "answer": "True",
+        "explanation": "int converts digit text to an integer.",
+        "revisit": "Day 2",
+        "difficulty": "Easy"
+      },
+      "10": {
+        "type": "Scenario",
+        "answer": "A",
+        "explanation": "Convert input to int before adding.",
+        "revisit": "Days 1–2",
+        "difficulty": "Medium"
+      },
+      "11": {
+        "type": "Scenario — predict output",
+        "answer": "C",
+        "explanation": "Floor division gives 3.",
+        "revisit": "Day 2",
+        "difficulty": "Medium"
+      },
+      "12": {
+        "type": "Short answer",
+        "answer": "print(8 * 7)",
+        "explanation": "This prints 56.",
+        "revisit": "Day 2",
+        "difficulty": "Hard"
+      }
+    },
+    "2": {
+      "1": {
+        "type": "MCQ",
+        "answer": "B",
+        "explanation": "elif checks another condition.",
+        "revisit": "Day 3",
+        "difficulty": "Easy"
+      },
+      "2": {
+        "type": "MCQ — predict output",
+        "answer": "B",
+        "explanation": "10 divided by 3 leaves remainder 1.",
+        "revisit": "Day 2",
+        "difficulty": "Easy"
+      },
+      "3": {
+        "type": "MCQ",
+        "answer": "C",
+        "explanation": "Lists are mutable.",
+        "revisit": "Day 4",
+        "difficulty": "Easy"
+      },
+      "4": {
+        "type": "MCQ",
+        "answer": "B",
+        "explanation": "Python sequences start at index 0.",
+        "revisit": "Day 4",
+        "difficulty": "Easy"
+      },
+      "5": {
+        "type": "MCQ",
+        "answer": "A",
+        "explanation": "append adds an item at the end.",
+        "revisit": "Day 4",
+        "difficulty": "Easy"
+      },
+      "6": {
+        "type": "MCQ — predict output",
+        "answer": "B",
+        "explanation": "The slice includes index 1 and excludes index 3.",
+        "revisit": "Day 4",
+        "difficulty": "Medium"
+      },
+      "7": {
+        "type": "T/F",
+        "answer": "True",
+        "explanation": "!= means not equal.",
+        "revisit": "Day 4",
+        "difficulty": "Easy"
+      },
+      "8": {
+        "type": "T/F",
+        "answer": "False",
+        "explanation": "The comprehension keeps values at least 70.",
+        "revisit": "Day 4",
+        "difficulty": "Medium"
+      },
+      "9": {
+        "type": "T/F",
+        "answer": "True",
+        "explanation": "Tuple items cannot be reassigned.",
+        "revisit": "Day 2",
+        "difficulty": "Easy"
+      },
+      "10": {
+        "type": "Scenario",
+        "answer": "B",
+        "explanation": "The ending index is excluded.",
+        "revisit": "Day 4",
+        "difficulty": "Medium"
+      },
+      "11": {
+        "type": "Scenario",
+        "answer": "A",
+        "explanation": "A tuple suits fixed coordinate values.",
+        "revisit": "Days 3–4",
+        "difficulty": "Medium"
+      },
+      "12": {
+        "type": "Short answer",
+        "answer": "A list is mutable; a tuple is immutable.",
+        "explanation": "Lists are mutable; tuples are immutable.",
+        "revisit": "Day 4",
+        "difficulty": "Hard"
+      }
+    },
+    "3": {
+      "1": {
+        "type": "MCQ",
+        "answer": "B",
+        "explanation": "Dictionaries store key- value pairs.",
+        "revisit": "Day 5",
+        "difficulty": "Easy"
+      },
+      "2": {
+        "type": "MCQ",
+        "answer": "C",
+        "explanation": "Sets keep unique values.",
+        "revisit": "Day 5",
+        "difficulty": "Easy"
+      },
+      "3": {
+        "type": "MCQ — predict output",
+        "answer": "B",
+        "explanation": "range(3) produces 0, 1, and 2.",
+        "revisit": "Day 6",
+        "difficulty": "Medium"
+      },
+      "4": {
+        "type": "MCQ",
+        "answer": "C",
+        "explanation": "break ends the loop.",
+        "revisit": "Day 6",
+        "difficulty": "Easy"
+      },
+      "5": {
+        "type": "MCQ",
+        "answer": "A",
+        "explanation": "while repeats while its condition is true.",
+        "revisit": "Day 6",
+        "difficulty": "Easy"
+      },
+      "6": {
+        "type": "MCQ — predict output",
+        "answer": "A",
+        "explanation": "Each value is multiplied by two.",
+        "revisit": "Day 6",
+        "difficulty": "Medium"
+      },
+      "7": {
+        "type": "T/F",
+        "answer": "True",
+        "explanation": "The loop may never stop if its condition never becomes false.",
+        "revisit": "Day 6",
+        "difficulty": "Medium"
+      },
+      "8": {
+        "type": "T/F",
+        "answer": "False",
+        "explanation": "Sets do not guarantee display order.",
+        "revisit": "Day 5",
+        "difficulty": "Medium"
+      },
+      "9": {
+        "type": "T/F",
+        "answer": "True",
+        "explanation": "get can supply a default.",
+        "revisit": "Day 5",
+        "difficulty": "Easy"
+      },
+      "10": {
+        "type": "Scenario",
+        "answer": "A",
+        "explanation": "A dictionary can store each word and its count.",
+        "revisit": "Days 5–6",
+        "difficulty": "Medium"
+      },
+      "11": {
+        "type": "Scenario",
+        "answer": "B",
+        "explanation": "continue skips the current iteration.",
+        "revisit": "Day 6",
+        "difficulty": "Medium"
+      },
+      "12": {
+        "type": "Short answer",
+        "answer": "A loop repeats a block of instructions.",
+        "explanation": "A loop repeats a block of instructions.",
+        "revisit": "Day 6",
+        "difficulty": "Hard"
+      }
+    },
+    "4": {
+      "1": {
+        "type": "MCQ",
+        "answer": "C",
+        "explanation": "def defines a function.",
+        "revisit": "Day 7",
+        "difficulty": "Easy"
+      },
+      "2": {
+        "type": "MCQ",
+        "answer": "B",
+        "explanation": "return sends a value back to the caller.",
+        "revisit": "Day 7",
+        "difficulty": "Easy"
+      },
+      "3": {
+        "type": "MCQ — predict output",
+        "answer": "B",
+        "explanation": "The function returns 2 + 3 = 5.",
+        "revisit": "Day 7",
+        "difficulty": "Medium"
+      },
+      "4": {
+        "type": "MCQ",
+        "answer": "A",
+        "explanation": "except handles a matching exception.",
+        "revisit": "Day 8",
+        "difficulty": "Easy"
+      },
+      "5": {
+        "type": "MCQ",
+        "answer": "C",
+        "explanation": "Append mode is a.",
+        "revisit": "Day 8",
+        "difficulty": "Easy"
+      },
+      "6": {
+        "type": "MCQ",
+        "answer": "A",
+        "explanation": "The csv module reads and writes CSV files.",
+        "revisit": "Day 8",
+        "difficulty": "Easy"
+      },
+      "7": {
+        "type": "T/F",
+        "answer": "True",
+        "explanation": "Parameters appear in a function definition.",
+        "revisit": "Day 7",
+        "difficulty": "Easy"
+      },
+      "8": {
+        "type": "T/F",
+        "answer": "False",
+        "explanation": "hello cannot be converted to an integer.",
+        "revisit": "Day 8",
+        "difficulty": "Easy"
+      },
+      "9": {
+        "type": "T/F",
+        "answer": "True",
+        "explanation": "The context manager closes the file when the block ends.",
+        "revisit": "Day 8",
+        "difficulty": "Medium"
+      },
+      "10": {
+        "type": "Scenario",
+        "answer": "B",
+        "explanation": "Check the filename and path.",
+        "revisit": "Day 8",
+        "difficulty": "Medium"
+      },
+      "11": {
+        "type": "Scenario",
+        "answer": "A",
+        "explanation": "Catch ValueError and display a helpful message.",
+        "revisit": "Day 8",
+        "difficulty": "Medium"
+      },
+      "12": {
+        "type": "Short answer",
+        "answer": "CSV stores tabular data in a portable text format.",
+        "explanation": "CSV stores tabular data in a portable text format.",
+        "revisit": "Day 8",
+        "difficulty": "Hard"
+      }
+    },
+    "5": {
+      "1": {
+        "type": "MCQ",
+        "answer": "A",
+        "explanation": "NumPy specializes in numerical arrays.",
+        "revisit": "Day 9",
+        "difficulty": "Easy"
+      },
+      "2": {
+        "type": "MCQ",
+        "answer": "B",
+        "explanation": "A DataFrame represents tabular data.",
+        "revisit": "Day 10",
+        "difficulty": "Easy"
+      },
+      "3": {
+        "type": "MCQ",
+        "answer": "B",
+        "explanation": "shape returns row and column counts.",
+        "revisit": "Day 10",
+        "difficulty": "Easy"
+      },
+      "4": {
+        "type": "MCQ",
+        "answer": "A",
+        "explanation": "Bar charts compare categories.",
+        "revisit": "Day 11",
+        "difficulty": "Easy"
+      },
+      "5": {
+        "type": "MCQ",
+        "answer": "A",
+        "explanation": "isna().sum() counts missing values.",
+        "revisit": "Day 11",
+        "difficulty": "Medium"
+      },
+      "6": {
+        "type": "MCQ — predict output",
+        "answer": "B",
+        "explanation": "The mean of 2, 4, and 6 is 4.",
+        "revisit": "Day 9",
+        "difficulty": "Easy"
+      },
+      "7": {
+        "type": "T/F",
+        "answer": "False",
+        "explanation": "Zero is not always an appropriate replacement.",
+        "revisit": "Day 11",
+        "difficulty": "Easy"
+      },
+      "8": {
+        "type": "T/F",
+        "answer": "False",
+        "explanation": "Correlation does not prove causation.",
+        "revisit": "Day 11",
+        "difficulty": "Medium"
+      },
+      "9": {
+        "type": "T/F",
+        "answer": "True",
+        "explanation": "drop_duplicates removes duplicate rows.",
+        "revisit": "Day 11",
+        "difficulty": "Easy"
+      },
+      "10": {
+        "type": "Scenario",
+        "answer": "A",
+        "explanation": "Scatter plots show relationships between numerical variables.",
+        "revisit": "Day 11",
+        "difficulty": "Medium"
+      },
+      "11": {
+        "type": "Scenario",
+        "answer": "A",
+        "explanation": "drop_duplicates removes exact duplicate rows.",
+        "revisit": "Day 11",
+        "difficulty": "Medium"
+      },
+      "12": {
+        "type": "Short answer",
+        "answer": "To identify data-quality issues, understand variables, and choose appropriate analysis.",
+        "explanation": "Inspection can reveal missing values, wrong types, or invalid records.",
+        "revisit": "Days 10–11",
+        "difficulty": "Hard"
+      }
+    },
+    "6": {
+      "1": {
+        "type": "MCQ",
+        "answer": "B",
+        "explanation": "Regression predicts numerical values.",
+        "revisit": "Day 12",
+        "difficulty": "Easy"
+      },
+      "2": {
+        "type": "MCQ",
+        "answer": "A",
+        "explanation": "Classification predicts categories.",
+        "revisit": "Day 13",
+        "difficulty": "Easy"
+      },
+      "3": {
+        "type": "MCQ",
+        "answer": "A",
+        "explanation": "Test data estimates performance on unseen examples.",
+        "revisit": "Day 12",
+        "difficulty": "Easy"
+      },
+      "4": {
+        "type": "MCQ",
+        "answer": "A",
+        "explanation": "A feature is an input variable.",
+        "revisit": "Day 12",
+        "difficulty": "Easy"
+      },
+      "5": {
+        "type": "MCQ",
+        "answer": "A",
+        "explanation": "Overfitting can hurt performance on new data.",
+        "revisit": "Day 13",
+        "difficulty": "Medium"
+      },
+      "6": {
+        "type": "MCQ",
+        "answer": "A",
+        "explanation": "K-Means is a clustering algorithm.",
+        "revisit": "Day 13",
+        "difficulty": "Easy"
+      },
+      "7": {
+        "type": "T/F",
+        "answer": "False",
+        "explanation": "Accuracy alone can hide important errors.",
+        "revisit": "Day 13",
+        "difficulty": "Easy"
+      },
+      "8": {
+        "type": "T/F",
+        "answer": "True",
+        "explanation": "Test examples should remain separate from training.",
+        "revisit": "Day 12",
+        "difficulty": "Medium"
+      },
+      "9": {
+        "type": "T/F",
+        "answer": "True",
+        "explanation": "Leakage can make evaluation misleading.",
+        "revisit": "Days 13–14",
+        "difficulty": "Medium"
+      },
+      "10": {
+        "type": "Scenario",
+        "answer": "A",
+        "explanation": "Recall measures the fraction of actual positives detected.",
+        "revisit": "Day 13",
+        "difficulty": "Medium"
+      },
+      "11": {
+        "type": "Scenario",
+        "answer": "A",
+        "explanation": "Investigate leakage and separation of test data.",
+        "revisit": "Days 13–14",
+        "difficulty": "Medium"
+      },
+      "12": {
+        "type": "Short answer",
+        "answer": "To estimate whether it generalizes beyond the examples used for training.",
+        "explanation": "Unseen data helps estimate generalization rather than memorization.",
+        "revisit": "Days 12–13",
+        "difficulty": "Hard"
+      }
+    }
+  }
+}

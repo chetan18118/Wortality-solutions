@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wortality Solutions — Python + Data Science + AI/ML Beginner Course Workbook</title>
+  <meta name="description" content="Wortality Solutions 14-Day Python, Data Science & AI/ML Beginner Course Workbook — 28 Hours, 6 Quizzes (72 Questions), 10 Projects, Capstone, Glossary & Cheat Sheets.">
+  <link rel="icon" type="image/png" href="./assets/logo-icon.png">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<div id="progress-track"><div id="progress-bar"></div></div>
+
+<header class="top-header">
+  <div class="header-left">
+    <button class="menu-btn" id="menu-toggle" aria-label="Toggle navigation sidebar">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <a class="brand-link" id="brand-home" title="Wortality Solutions — Course Overview">
+      <img src="./assets/logo-full.png" alt="Wortality Solutions" class="brand-logo-img">
+      <span class="brand-divider"></span>
+      <span class="brand-product">Python + AI/ML Docs</span>
+    </a>
+    <nav class="top-nav" aria-label="Primary navigation">
+      <button class="top-nav-btn active" data-nav="overview">Course Overview</button>
+      <button class="top-nav-btn" data-nav="modules">Learning Modules</button>
+      <button class="top-nav-btn" data-nav="projects">Projects</button>
+      <button class="top-nav-btn" data-nav="quizzes">Quizzes</button>
+      <button class="top-nav-btn" data-nav="resources">Resources</button>
+    </nav>
+  </div>
+  <div class="header-right">
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="global-search" class="search-input" placeholder="Search workbook..." autocomplete="off">
+      <span class="search-kbd">/</span>
+      <div id="search-results" class="search-results"></div>
+    </div>
+    <div class="progress-pill" title="Completed lessons & sections">
+      <span class="progress-dot"></span>
+      <span class="progress-text" id="progress-label">0 / 23</span>
+    </div>
+  </div>
+</header>
+
+<div class="sidebar-backdrop" id="sidebar-backdrop"></div>
+
+<div class="doc-shell">
+  <aside class="sidebar" id="sidebar" aria-label="Course navigation"></aside>
+
+  <div class="main-wrap">
+    <main class="content-inner" id="main-content"></main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="./assets/logo-full.png" alt="Wortality Solutions" class="footer-logo">
+          <div>
+            <div class="footer-tagline">FROM CAMPUS TALENT TO INDUSTRY EXCELLENCE</div>
+            <div class="footer-meta">Wortality Solutions &middot; Beginner-friendly learning workbook | 28 Hours | Google Colab</div>
+          </div>
+        </div>
+        <div class="badge-yellow">14-Day Curriculum &middot; 28 Hours</div>
+      </div>
+    </footer>
+  </div>
+
+  <aside class="toc-sidebar" aria-label="On this page">
+    <div class="toc-title">On this page</div>
+    <ul class="toc-list" id="toc-list"></ul>
+    <div class="toc-actions">
+      <button class="toc-action-btn" id="toc-toggle-solutions">Toggle All Solutions</button>
+      <button class="toc-action-btn" id="toc-print">Print Current Page</button>
+    </div>
+  </aside>
+</div>
+
+<div id="toast"></div>
+
+<script src="./js/app.js" defer></script>
+</body>
+</html>
